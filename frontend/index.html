@@ -100,7 +100,6 @@
                 </select>
             </div>
 
-            <div id="result-summary" class="result-summary" aria-live="polite"></div>
             <div id="file-grid" class="file-grid"></div>
         </section>
     </main>
@@ -352,7 +351,6 @@
 
             const files = getVisibleFiles();
             renderHeading(files.length);
-            renderResultSummary(files);
             renderFileSections(files);
         }
 
@@ -360,7 +358,6 @@
             document.getElementById('breadcrumb').textContent = '首页';
             document.getElementById('view-title').textContent = '资料检索';
             document.getElementById('view-subtitle').textContent = '使用搜索框或左侧目录查找课程资料。';
-            document.getElementById('result-summary').innerHTML = '';
             const grid = document.getElementById('file-grid');
             grid.className = 'file-grid home-grid';
             grid.innerHTML = '<div class="loading-card">首页加载中……</div>';
@@ -435,20 +432,6 @@
             document.getElementById('breadcrumb').textContent = `资源目录 / ${categoryText}`;
             document.getElementById('view-title').textContent = categoryText;
             document.getElementById('view-subtitle').textContent = `${typeText} · 当前显示 ${count} 份文件${state.query ? ` · 搜索“${state.query}”` : ''}`;
-        }
-
-        function renderResultSummary(files) {
-            const examFiles = files.filter(file => file.source === 'PDFFiles').length;
-            const handoutFiles = files.filter(file => file.source === 'Handout').length;
-            const categories = new Set(files.map(file => file.category)).size;
-            const totalSize = files.reduce((sum, file) => sum + parseSize(file.size), 0);
-            document.getElementById('result-summary').innerHTML = `
-                <article><strong>${files.length}</strong><span>当前结果</span></article>
-                <article><strong>${categories}</strong><span>涉及课程</span></article>
-                <article><strong>${examFiles}</strong><span>考试题目</span></article>
-                <article><strong>${handoutFiles}</strong><span>讲义资料</span></article>
-                <article><strong>${formatSize(totalSize)}</strong><span>估算大小</span></article>
-            `;
         }
 
         function renderFileSections(files) {
@@ -635,14 +618,6 @@
             const unit = (match[2] || 'B').toUpperCase();
             const factor = { B: 1, KB: 1024, MB: 1024 ** 2, GB: 1024 ** 3 }[unit] || 1;
             return value * factor;
-        }
-
-        function formatSize(bytes) {
-            if (!bytes) return '--';
-            if (bytes >= 1024 ** 3) return `${(bytes / 1024 ** 3).toFixed(1)}GB`;
-            if (bytes >= 1024 ** 2) return `${(bytes / 1024 ** 2).toFixed(1)}MB`;
-            if (bytes >= 1024) return `${(bytes / 1024).toFixed(1)}KB`;
-            return `${bytes}B`;
         }
 
         function escapeHtml(input) {
