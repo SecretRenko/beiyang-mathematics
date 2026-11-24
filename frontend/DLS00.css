@@ -28,7 +28,7 @@ body {
     margin: 0;
     min-height: 100vh;
     color: var(--ink);
-    font-family: Georgia, "Times New Roman", "Noto Serif SC", "Songti SC", SimSun, serif;
+    font-family: "Times New Roman", "Noto Serif SC", "Songti SC", SimSun, serif;
     line-height: 1.65;
     background: var(--bg);
 }
@@ -123,7 +123,7 @@ button {
     color: var(--muted);
     font-size: 12px;
     letter-spacing: 0.05em;
-    font-family: Arial, "Microsoft YaHei", sans-serif;
+    font-family: "Times New Roman", Arial, "Microsoft YaHei", sans-serif;
 }
 
 .top-nav {
@@ -140,7 +140,7 @@ button {
     padding: 8px 16px;
     color: var(--brand-deep);
     background: #fff;
-    font-family: Arial, "Microsoft YaHei", sans-serif;
+    font-family: "Times New Roman", Arial, "Microsoft YaHei", sans-serif;
     font-size: 14px;
 }
 
@@ -203,7 +203,7 @@ button {
 .home-kicker {
     margin: 0;
     color: var(--brand);
-    font-family: Arial, "Microsoft YaHei", sans-serif;
+    font-family: "Times New Roman", Arial, "Microsoft YaHei", sans-serif;
     font-size: 12px;
     font-weight: 700;
     letter-spacing: 0.08em;
@@ -232,14 +232,14 @@ button {
 .summary-grid strong {
     display: block;
     color: var(--brand-deep);
-    font-family: Arial, "Microsoft YaHei", sans-serif;
+    font-family: "Times New Roman", Arial, "Microsoft YaHei", sans-serif;
     font-size: 22px;
     line-height: 1.1;
 }
 
 .summary-grid span {
     color: var(--muted);
-    font-family: Arial, "Microsoft YaHei", sans-serif;
+    font-family: "Times New Roman", Arial, "Microsoft YaHei", sans-serif;
     font-size: 12px;
 }
 
@@ -260,19 +260,17 @@ button {
     margin: 0;
 }
 
-.side-section-head button,
-.copy-btn {
+.side-section-head button {
     border: 1px solid var(--line-dark);
     border-radius: 4px;
     padding: 5px 9px;
     color: var(--brand-deep);
     background: #fff;
-    font-family: Arial, "Microsoft YaHei", sans-serif;
+    font-family: "Times New Roman", Arial, "Microsoft YaHei", sans-serif;
     font-size: 13px;
 }
 
-.side-section-head button:hover,
-.copy-btn:hover {
+.side-section-head button:hover {
     color: #fff;
     background: var(--brand);
     border-color: var(--brand);
@@ -318,14 +316,14 @@ button {
     font-style: normal;
     text-align: center;
     background: var(--brand-soft);
-    font-family: Arial, "Microsoft YaHei", sans-serif;
+    font-family: "Times New Roman", Arial, "Microsoft YaHei", sans-serif;
 }
 
 .group-description {
     margin: 8px 12px 6px;
     color: var(--muted);
     font-size: 12px;
-    font-family: Arial, "Microsoft YaHei", sans-serif;
+    font-family: "Times New Roman", Arial, "Microsoft YaHei", sans-serif;
 }
 
 .category-buttons {
@@ -372,7 +370,7 @@ button {
     color: var(--muted);
     font-size: 12px;
     white-space: nowrap;
-    font-family: Arial, "Microsoft YaHei", sans-serif;
+    font-family: "Times New Roman", Arial, "Microsoft YaHei", sans-serif;
 }
 
 .stats-panel {
@@ -408,7 +406,7 @@ button {
     color: var(--muted);
     font-size: 12px;
     font-style: normal;
-    font-family: Arial, "Microsoft YaHei", sans-serif;
+    font-family: "Times New Roman", Arial, "Microsoft YaHei", sans-serif;
 }
 
 .content-panel {
@@ -460,7 +458,7 @@ button {
 .search-box {
     display: grid;
     gap: 6px;
-    font-family: Arial, "Microsoft YaHei", sans-serif;
+    font-family: "Times New Roman", Arial, "Microsoft YaHei", sans-serif;
 }
 
 .search-box span {
@@ -492,7 +490,7 @@ button {
     align-items: center;
     gap: 8px;
     margin-bottom: 16px;
-    font-family: Arial, "Microsoft YaHei", sans-serif;
+    font-family: "Times New Roman", Arial, "Microsoft YaHei", sans-serif;
 }
 
 .filter-chip {
@@ -579,7 +577,7 @@ button {
     color: #fff;
     font-weight: 800;
     background: var(--brand);
-    font-family: Arial, "Microsoft YaHei", sans-serif;
+    font-family: "Times New Roman", Arial, "Microsoft YaHei", sans-serif;
 }
 
 .file-badge.handout {
@@ -604,7 +602,7 @@ button {
     color: var(--muted);
     font-size: 11px;
     background: #f8fafc;
-    font-family: Arial, "Microsoft YaHei", sans-serif;
+    font-family: "Times New Roman", Arial, "Microsoft YaHei", sans-serif;
 }
 
 .file-title {
@@ -614,20 +612,11 @@ button {
     word-break: break-word;
 }
 
-.file-path {
-    margin: 0 0 10px;
-    color: var(--muted);
-    font-family: Consolas, "Liberation Mono", monospace;
-    font-size: 12px;
-    line-height: 1.45;
-    word-break: break-all;
-}
-
 .file-actions {
     display: flex;
     flex-wrap: wrap;
     gap: 8px;
-    font-family: Arial, "Microsoft YaHei", sans-serif;
+    font-family: "Times New Roman", Arial, "Microsoft YaHei", sans-serif;
 }
 
 .download-btn {
@@ -707,7 +696,7 @@ button {
     flex-wrap: wrap;
     gap: 10px;
     margin-top: 20px;
-    font-family: Arial, "Microsoft YaHei", sans-serif;
+    font-family: "Times New Roman", Arial, "Microsoft YaHei", sans-serif;
 }
 
 .primary-action,
@@ -744,7 +733,7 @@ button {
     padding-top: 16px;
     color: rgba(255, 255, 255, 0.76);
     border-top: 1px solid rgba(255, 255, 255, 0.22);
-    font-family: Arial, "Microsoft YaHei", sans-serif;
+    font-family: "Times New Roman", Arial, "Microsoft YaHei", sans-serif;
 }
 
 .home-stat-row b {
@@ -797,7 +786,7 @@ button {
 }
 
 .contact-info {
-    font-family: Arial, "Microsoft YaHei", sans-serif;
+    font-family: "Times New Roman", Arial, "Microsoft YaHei", sans-serif;
 }
 
 .site-footer {
@@ -847,7 +836,7 @@ button {
     border-top: 1px solid rgba(255, 255, 255, 0.16);
     color: rgba(255, 255, 255, 0.56);
     font-size: 13px;
-    font-family: Arial, "Microsoft YaHei", sans-serif;
+    font-family: "Times New Roman", Arial, "Microsoft YaHei", sans-serif;
 }
 
 .footer-contact-links {

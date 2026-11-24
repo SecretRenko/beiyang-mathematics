@@ -517,10 +517,6 @@
             title.className = 'file-title';
             title.textContent = file.title || '未命名文件';
 
-            const pathLine = document.createElement('p');
-            pathLine.className = 'file-path';
-            pathLine.textContent = file.url || '';
-
             const actions = document.createElement('div');
             actions.className = 'file-actions';
 
@@ -531,26 +527,9 @@
             btn.dataset.url = file.url;
             btn.addEventListener('click', () => setTimeout(loadHotFiles, 1200));
 
-            const copy = document.createElement('button');
-            copy.type = 'button';
-            copy.className = 'copy-btn';
-            copy.textContent = '复制路径';
-            copy.addEventListener('click', async () => {
-                try {
-                    await navigator.clipboard.writeText(file.url || '');
-                    copy.textContent = '已复制';
-                    setTimeout(() => { copy.textContent = '复制路径'; }, 1200);
-                } catch {
-                    copy.textContent = '复制失败';
-                    setTimeout(() => { copy.textContent = '复制路径'; }, 1200);
-                }
-            });
-
             actions.appendChild(btn);
-            actions.appendChild(copy);
             info.appendChild(chips);
             info.appendChild(title);
-            info.appendChild(pathLine);
             info.appendChild(actions);
             fileCard.appendChild(badge);
             fileCard.appendChild(info);
