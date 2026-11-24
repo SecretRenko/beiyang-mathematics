@@ -1,0 +1,1260 @@
+export const courseData = {
+  "PDE": [
+    {
+      "title": "数学物理方程（第3版） (谷超豪 李大潜 陈恕行) (Z-Library)",
+      "category": "PDE",
+      "size": "9.3MB",
+      "classify": "PDF",
+      "url": "Handout/PDE/数学物理方程（第3版） (谷超豪 李大潜 陈恕行) (Z-Library).pdf",
+      "source": "Handout"
+    },
+    {
+      "title": "25_26偏微分方程期末考试",
+      "category": "PDE",
+      "size": "95.3KB",
+      "classify": "PDF",
+      "url": "PDFFiles/PDE/25_26偏微分方程期末考试.pdf",
+      "source": "PDFFiles"
+    },
+    {
+      "title": "24_25偏微分方程期末考试",
+      "category": "PDE",
+      "size": "74.2KB",
+      "classify": "PDF",
+      "url": "PDFFiles/PDE/24_25偏微分方程期末考试.pdf",
+      "source": "PDFFiles"
+    }
+  ],
+  "代数拓扑": [
+    {
+      "title": "几何与拓扑I_2025-S",
+      "category": "代数拓扑",
+      "size": "5.6MB",
+      "classify": "PDF",
+      "url": "Handout/代数拓扑/几何与拓扑I_2025-S.pdf",
+      "source": "Handout"
+    },
+    {
+      "title": "25_26几何与拓扑I期末考试",
+      "category": "代数拓扑",
+      "size": "96.5KB",
+      "classify": "PDF",
+      "url": "PDFFiles/代数拓扑/25_26几何与拓扑I期末考试.pdf",
+      "source": "PDFFiles"
+    },
+    {
+      "title": "24_25几何与拓扑I期末考试",
+      "category": "代数拓扑",
+      "size": "107.5KB",
+      "classify": "PDF",
+      "url": "PDFFiles/代数拓扑/24_25几何与拓扑I期末考试.pdf",
+      "source": "PDFFiles"
+    }
+  ],
+  "复变函数": [
+    {
+      "title": "求是",
+      "category": "复变函数",
+      "size": "6.3MB",
+      "classify": "ZIP",
+      "url": "Handout/复变函数/求是.zip",
+      "source": "Handout"
+    },
+    {
+      "title": "大类",
+      "category": "复变函数",
+      "size": "21.2MB",
+      "classify": "ZIP",
+      "url": "Handout/复变函数/大类.zip",
+      "source": "Handout"
+    },
+    {
+      "title": "23复变（曾）",
+      "category": "复变函数",
+      "size": "63.2KB",
+      "classify": "PDF",
+      "url": "PDFFiles/复变函数/23复变（曾）.pdf",
+      "source": "PDFFiles"
+    },
+    {
+      "title": "23复变（何)",
+      "category": "复变函数",
+      "size": "57.2KB",
+      "classify": "PDF",
+      "url": "PDFFiles/复变函数/23复变（何).pdf",
+      "source": "PDFFiles"
+    },
+    {
+      "title": "22级复变函数期末考试(何)",
+      "category": "复变函数",
+      "size": "59.6KB",
+      "classify": "PDF",
+      "url": "PDFFiles/复变函数/22级复变函数期末考试(何).pdf",
+      "source": "PDFFiles"
+    },
+    {
+      "title": "22复变(曾）",
+      "category": "复变函数",
+      "size": "208.5KB",
+      "classify": "PDF",
+      "url": "PDFFiles/复变函数/22复变(曾）.pdf",
+      "source": "PDFFiles"
+    },
+    {
+      "title": "21级复变函数（曾）（来自指北）",
+      "category": "复变函数",
+      "size": "42.7KB",
+      "classify": "PDF",
+      "url": "PDFFiles/复变函数/21级复变函数（曾）（来自指北）.pdf",
+      "source": "PDFFiles"
+    },
+    {
+      "title": "21级复变函数期末考试(何)",
+      "category": "复变函数",
+      "size": "262.1KB",
+      "classify": "PDF",
+      "url": "PDFFiles/复变函数/21级复变函数期末考试(何).pdf",
+      "source": "PDFFiles"
+    },
+    {
+      "title": "21级之前的一次复变(何)",
+      "category": "复变函数",
+      "size": "63.4KB",
+      "classify": "PDF",
+      "url": "PDFFiles/复变函数/21级之前的一次复变(何).pdf",
+      "source": "PDFFiles"
+    }
+  ],
+  "大学物理A": [
+    {
+      "title": "大物1A2A计算题复习",
+      "category": "大学物理A",
+      "size": "495.7KB",
+      "classify": "PDF",
+      "url": "PDFFiles/大学物理A/大物1A2A计算题复习.pdf",
+      "source": "PDFFiles"
+    },
+    {
+      "title": "2_2023～2024A卷",
+      "category": "大学物理A",
+      "size": "2.0MB",
+      "classify": "PDF",
+      "url": "PDFFiles/大学物理A/2_2023～2024A卷.pdf",
+      "source": "PDFFiles"
+    },
+    {
+      "title": "22级大物A期末考试",
+      "category": "大学物理A",
+      "size": "2.8MB",
+      "classify": "PDF",
+      "url": "PDFFiles/大学物理A/22级大物A期末考试.pdf",
+      "source": "PDFFiles"
+    },
+    {
+      "title": "21级大物A期末考试",
+      "category": "大学物理A",
+      "size": "1017.7KB",
+      "classify": "PDF",
+      "url": "PDFFiles/大学物理A/21级大物A期末考试.pdf",
+      "source": "PDFFiles"
+    },
+    {
+      "title": "20级大物A期末考试",
+      "category": "大学物理A",
+      "size": "2.0MB",
+      "classify": "PDF",
+      "url": "PDFFiles/大学物理A/20级大物A期末考试.pdf",
+      "source": "PDFFiles"
+    },
+    {
+      "title": "19级大物A期末考试",
+      "category": "大学物理A",
+      "size": "1.6MB",
+      "classify": "PDF",
+      "url": "PDFFiles/大学物理A/19级大物A期末考试.pdf",
+      "source": "PDFFiles"
+    },
+    {
+      "title": "18级大物A期末考试",
+      "category": "大学物理A",
+      "size": "1.5MB",
+      "classify": "PDF",
+      "url": "PDFFiles/大学物理A/18级大物A期末考试.pdf",
+      "source": "PDFFiles"
+    },
+    {
+      "title": "16和17级大物A期末考试",
+      "category": "大学物理A",
+      "size": "6.1MB",
+      "classify": "PDF",
+      "url": "PDFFiles/大学物理A/16和17级大物A期末考试.pdf",
+      "source": "PDFFiles"
+    },
+    {
+      "title": "15级大物1A期末考试",
+      "category": "大学物理A",
+      "size": "788.0KB",
+      "classify": "DOC",
+      "url": "PDFFiles/大学物理A/15级大物1A期末考试.docx",
+      "source": "PDFFiles"
+    },
+    {
+      "title": "14级大物2A期末考试",
+      "category": "大学物理A",
+      "size": "3.9MB",
+      "classify": "PDF",
+      "url": "PDFFiles/大学物理A/14级大物2A期末考试.pdf",
+      "source": "PDFFiles"
+    },
+    {
+      "title": "14级大物1A期末考试",
+      "category": "大学物理A",
+      "size": "682.6KB",
+      "classify": "DOC",
+      "url": "PDFFiles/大学物理A/14级大物1A期末考试.docx",
+      "source": "PDFFiles"
+    }
+  ],
+  "大学物理B": [
+    {
+      "title": "2223大物1B",
+      "category": "大学物理B",
+      "size": "2.0MB",
+      "classify": "PDF",
+      "url": "PDFFiles/大学物理B/2223大物1B.pdf",
+      "source": "PDFFiles"
+    },
+    {
+      "title": "2122大物2B",
+      "category": "大学物理B",
+      "size": "206.1KB",
+      "classify": "PDF",
+      "url": "PDFFiles/大学物理B/2122大物2B.pdf",
+      "source": "PDFFiles"
+    },
+    {
+      "title": "2122大物1B",
+      "category": "大学物理B",
+      "size": "219.5KB",
+      "classify": "PDF",
+      "url": "PDFFiles/大学物理B/2122大物1B.pdf",
+      "source": "PDFFiles"
+    },
+    {
+      "title": "1718大物2B",
+      "category": "大学物理B",
+      "size": "1.7MB",
+      "classify": "PDF",
+      "url": "PDFFiles/大学物理B/1718大物2B.pdf",
+      "source": "PDFFiles"
+    },
+    {
+      "title": "1516大物2B",
+      "category": "大学物理B",
+      "size": "2.3MB",
+      "classify": "PDF",
+      "url": "PDFFiles/大学物理B/1516大物2B.pdf",
+      "source": "PDFFiles"
+    },
+    {
+      "title": "1415大物2B",
+      "category": "大学物理B",
+      "size": "3.1MB",
+      "classify": "PDF",
+      "url": "PDFFiles/大学物理B/1415大物2B.pdf",
+      "source": "PDFFiles"
+    },
+    {
+      "title": "1314大物2B",
+      "category": "大学物理B",
+      "size": "4.2MB",
+      "classify": "DOC",
+      "url": "PDFFiles/大学物理B/1314大物2B.docx",
+      "source": "PDFFiles"
+    },
+    {
+      "title": "0809，0910，1011，1213，1516，1617大物1B",
+      "category": "大学物理B",
+      "size": "7.2MB",
+      "classify": "PDF",
+      "url": "PDFFiles/大学物理B/0809，0910，1011，1213，1516，1617大物1B.pdf",
+      "source": "PDFFiles"
+    }
+  ],
+  "实变函数": [
+    {
+      "title": "求是",
+      "category": "实变函数",
+      "size": "36.3MB",
+      "classify": "ZIP",
+      "url": "Handout/实变函数/求是.zip",
+      "source": "Handout"
+    },
+    {
+      "title": "大类",
+      "category": "实变函数",
+      "size": "69.4MB",
+      "classify": "ZIP",
+      "url": "Handout/实变函数/大类.zip",
+      "source": "Handout"
+    },
+    {
+      "title": "23级实变(于)",
+      "category": "实变函数",
+      "size": "36.2KB",
+      "classify": "PDF",
+      "url": "PDFFiles/实变函数/23级实变(于).pdf",
+      "source": "PDFFiles"
+    },
+    {
+      "title": "2024实变函数期末考试",
+      "category": "实变函数",
+      "size": "362.5KB",
+      "classify": "PDF",
+      "url": "PDFFiles/实变函数/2024实变函数期末考试.pdf",
+      "source": "PDFFiles"
+    },
+    {
+      "title": "2023实变函数期末考试",
+      "category": "实变函数",
+      "size": "337.6KB",
+      "classify": "PDF",
+      "url": "PDFFiles/实变函数/2023实变函数期末考试.pdf",
+      "source": "PDFFiles"
+    },
+    {
+      "title": "2022实变函数期末考试(2)",
+      "category": "实变函数",
+      "size": "888.2KB",
+      "classify": "PDF",
+      "url": "PDFFiles/实变函数/2022实变函数期末考试(2).pdf",
+      "source": "PDFFiles"
+    },
+    {
+      "title": "2022实变函数期末考试(1)",
+      "category": "实变函数",
+      "size": "357.7KB",
+      "classify": "PDF",
+      "url": "PDFFiles/实变函数/2022实变函数期末考试(1).pdf",
+      "source": "PDFFiles"
+    },
+    {
+      "title": "2021实变函数期末考试",
+      "category": "实变函数",
+      "size": "1007.0KB",
+      "classify": "PDF",
+      "url": "PDFFiles/实变函数/2021实变函数期末考试.pdf",
+      "source": "PDFFiles"
+    },
+    {
+      "title": "2020实变函数期末考试答案",
+      "category": "实变函数",
+      "size": "388.3KB",
+      "classify": "PDF",
+      "url": "PDFFiles/实变函数/2020实变函数期末考试答案.pdf",
+      "source": "PDFFiles"
+    }
+  ],
+  "微分几何": [
+    {
+      "title": "求是",
+      "category": "微分几何",
+      "size": "4.2MB",
+      "classify": "ZIP",
+      "url": "Handout/微分几何/求是.zip",
+      "source": "Handout"
+    },
+    {
+      "title": "大类",
+      "category": "微分几何",
+      "size": "20.3MB",
+      "classify": "ZIP",
+      "url": "Handout/微分几何/大类.zip",
+      "source": "Handout"
+    },
+    {
+      "title": "微分几何 (1)",
+      "category": "微分几何",
+      "size": "94.5KB",
+      "classify": "PDF",
+      "url": "PDFFiles/微分几何/微分几何 (1).pdf",
+      "source": "PDFFiles"
+    },
+    {
+      "title": "23级微分几何期末",
+      "category": "微分几何",
+      "size": "83.0KB",
+      "classify": "PDF",
+      "url": "PDFFiles/微分几何/23级微分几何期末.pdf",
+      "source": "PDFFiles"
+    }
+  ],
+  "抽象代数": [
+    {
+      "title": "抽象代数 (孙笑涛) (Z-Library)",
+      "category": "抽象代数",
+      "size": "17.4MB",
+      "classify": "PDF",
+      "url": "Handout/抽象代数/抽象代数 (孙笑涛) (Z-Library).pdf",
+      "source": "Handout"
+    },
+    {
+      "title": "24级抽象代数期末考试",
+      "category": "抽象代数",
+      "size": "43.4KB",
+      "classify": "PDF",
+      "url": "PDFFiles/抽象代数/24级抽象代数期末考试.pdf",
+      "source": "PDFFiles"
+    },
+    {
+      "title": "24级抽象代数期中考试",
+      "category": "抽象代数",
+      "size": "61.7KB",
+      "classify": "PDF",
+      "url": "PDFFiles/抽象代数/24级抽象代数期中考试.pdf",
+      "source": "PDFFiles"
+    },
+    {
+      "title": "23级抽象代数期末考试",
+      "category": "抽象代数",
+      "size": "53.8KB",
+      "classify": "PDF",
+      "url": "PDFFiles/抽象代数/23级抽象代数期末考试.pdf",
+      "source": "PDFFiles"
+    },
+    {
+      "title": "23级抽象代数期中考试",
+      "category": "抽象代数",
+      "size": "65.3KB",
+      "classify": "PDF",
+      "url": "PDFFiles/抽象代数/23级抽象代数期中考试.pdf",
+      "source": "PDFFiles"
+    },
+    {
+      "title": "22级抽象代数期末考试",
+      "category": "抽象代数",
+      "size": "59.6KB",
+      "classify": "PDF",
+      "url": "PDFFiles/抽象代数/22级抽象代数期末考试.pdf",
+      "source": "PDFFiles"
+    },
+    {
+      "title": "22级抽象代数期中考试",
+      "category": "抽象代数",
+      "size": "49.1KB",
+      "classify": "PDF",
+      "url": "PDFFiles/抽象代数/22级抽象代数期中考试.pdf",
+      "source": "PDFFiles"
+    },
+    {
+      "title": "21级抽象代数期末考试",
+      "category": "抽象代数",
+      "size": "46.9KB",
+      "classify": "PDF",
+      "url": "PDFFiles/抽象代数/21级抽象代数期末考试.pdf",
+      "source": "PDFFiles"
+    },
+    {
+      "title": "21级抽象代数期中考试",
+      "category": "抽象代数",
+      "size": "44.8KB",
+      "classify": "PDF",
+      "url": "PDFFiles/抽象代数/21级抽象代数期中考试.pdf",
+      "source": "PDFFiles"
+    },
+    {
+      "title": "20级抽象代数期末考试",
+      "category": "抽象代数",
+      "size": "56.6KB",
+      "classify": "PDF",
+      "url": "PDFFiles/抽象代数/20级抽象代数期末考试.pdf",
+      "source": "PDFFiles"
+    }
+  ],
+  "拓扑学": [
+    {
+      "title": "求是",
+      "category": "拓扑学",
+      "size": "53.0MB",
+      "classify": "ZIP",
+      "url": "Handout/拓扑学/求是.zip",
+      "source": "Handout"
+    },
+    {
+      "title": "大类",
+      "category": "拓扑学",
+      "size": "245.6MB",
+      "classify": "ZIP",
+      "url": "Handout/拓扑学/大类.zip",
+      "source": "Handout"
+    },
+    {
+      "title": "23级拓扑期末(王)",
+      "category": "拓扑学",
+      "size": "67.1KB",
+      "classify": "PDF",
+      "url": "PDFFiles/拓扑学/23级拓扑期末(王).pdf",
+      "source": "PDFFiles"
+    },
+    {
+      "title": "23级拓扑期末(潘)",
+      "category": "拓扑学",
+      "size": "99.3KB",
+      "classify": "PDF",
+      "url": "PDFFiles/拓扑学/23级拓扑期末(潘).pdf",
+      "source": "PDFFiles"
+    },
+    {
+      "title": "23级拓扑半期",
+      "category": "拓扑学",
+      "size": "1.6MB",
+      "classify": "PDF",
+      "url": "PDFFiles/拓扑学/23级拓扑半期.pdf",
+      "source": "PDFFiles"
+    },
+    {
+      "title": "22拓扑",
+      "category": "拓扑学",
+      "size": "101.9KB",
+      "classify": "PDF",
+      "url": "PDFFiles/拓扑学/22拓扑.pdf",
+      "source": "PDFFiles"
+    }
+  ],
+  "数值线性代数": [
+    {
+      "title": "数值线性代数(第二版) -- 徐树方, 高立, 张平文_副本",
+      "category": "数值线性代数",
+      "size": "37.7MB",
+      "classify": "PDF",
+      "url": "Handout/数值线性代数/数值线性代数(第二版) -- 徐树方, 高立, 张平文_副本.pdf",
+      "source": "Handout"
+    },
+    {
+      "title": "2024数值线性代数试卷",
+      "category": "数值线性代数",
+      "size": "101.2KB",
+      "classify": "PDF",
+      "url": "PDFFiles/数值线性代数/2024数值线性代数试卷.pdf",
+      "source": "PDFFiles"
+    }
+  ],
+  "数学分析A": [
+    {
+      "title": "求是",
+      "category": "数学分析A",
+      "size": "62.1MB",
+      "classify": "ZIP",
+      "url": "Handout/数学分析A/求是.zip",
+      "source": "Handout"
+    },
+    {
+      "title": "大类",
+      "category": "数学分析A",
+      "size": "4.0MB",
+      "classify": "ZIP",
+      "url": "Handout/数学分析A/大类.zip",
+      "source": "Handout"
+    },
+    {
+      "title": "25级数学分析(A)期末考试(求是) ",
+      "category": "数学分析A",
+      "size": "50.7KB",
+      "classify": "PDF",
+      "url": "PDFFiles/数学分析A/25级数学分析(A)期末考试(求是) .pdf",
+      "source": "PDFFiles"
+    },
+    {
+      "title": "25级数学分析(A)期末考试(大类)",
+      "category": "数学分析A",
+      "size": "46.6KB",
+      "classify": "PDF",
+      "url": "PDFFiles/数学分析A/25级数学分析(A)期末考试(大类).pdf",
+      "source": "PDFFiles"
+    },
+    {
+      "title": "25级数学分析(A)期中考试(求是) ",
+      "category": "数学分析A",
+      "size": "53.9KB",
+      "classify": "PDF",
+      "url": "PDFFiles/数学分析A/25级数学分析(A)期中考试(求是) .pdf",
+      "source": "PDFFiles"
+    },
+    {
+      "title": "25级数学分析(A)期中考试(大类)",
+      "category": "数学分析A",
+      "size": "54.2KB",
+      "classify": "PDF",
+      "url": "PDFFiles/数学分析A/25级数学分析(A)期中考试(大类).pdf",
+      "source": "PDFFiles"
+    },
+    {
+      "title": "24级数学分析(A)期末考试(张)",
+      "category": "数学分析A",
+      "size": "49.9KB",
+      "classify": "PDF",
+      "url": "PDFFiles/数学分析A/24级数学分析(A)期末考试(张).pdf",
+      "source": "PDFFiles"
+    },
+    {
+      "title": "24级数学分析(A)期末考试(周)",
+      "category": "数学分析A",
+      "size": "53.9KB",
+      "classify": "PDF",
+      "url": "PDFFiles/数学分析A/24级数学分析(A)期末考试(周).pdf",
+      "source": "PDFFiles"
+    },
+    {
+      "title": "24级数学分析(A)期中考试(张)",
+      "category": "数学分析A",
+      "size": "52.3KB",
+      "classify": "PDF",
+      "url": "PDFFiles/数学分析A/24级数学分析(A)期中考试(张).pdf",
+      "source": "PDFFiles"
+    },
+    {
+      "title": "24级数学分析(A)期中考试(周)",
+      "category": "数学分析A",
+      "size": "47.3KB",
+      "classify": "PDF",
+      "url": "PDFFiles/数学分析A/24级数学分析(A)期中考试(周).pdf",
+      "source": "PDFFiles"
+    },
+    {
+      "title": "23级数学分析(A)期末考试(李)",
+      "category": "数学分析A",
+      "size": "45.1KB",
+      "classify": "PDF",
+      "url": "PDFFiles/数学分析A/23级数学分析(A)期末考试(李).pdf",
+      "source": "PDFFiles"
+    },
+    {
+      "title": "23级数学分析(A)期中考试B卷(李)",
+      "category": "数学分析A",
+      "size": "42.6KB",
+      "classify": "PDF",
+      "url": "PDFFiles/数学分析A/23级数学分析(A)期中考试B卷(李).pdf",
+      "source": "PDFFiles"
+    },
+    {
+      "title": "23级数学分析(A)期中考试(李)",
+      "category": "数学分析A",
+      "size": "47.6KB",
+      "classify": "PDF",
+      "url": "PDFFiles/数学分析A/23级数学分析(A)期中考试(李).pdf",
+      "source": "PDFFiles"
+    },
+    {
+      "title": "23级数学分析(A)专题开卷考试",
+      "category": "数学分析A",
+      "size": "60.3KB",
+      "classify": "PDF",
+      "url": "PDFFiles/数学分析A/23级数学分析(A)专题开卷考试.pdf",
+      "source": "PDFFiles"
+    },
+    {
+      "title": "22级数学分析(A)期末考试(周)",
+      "category": "数学分析A",
+      "size": "54.9KB",
+      "classify": "PDF",
+      "url": "PDFFiles/数学分析A/22级数学分析(A)期末考试(周).pdf",
+      "source": "PDFFiles"
+    },
+    {
+      "title": "22级数学分析(A)期中考试(周)",
+      "category": "数学分析A",
+      "size": "54.5KB",
+      "classify": "PDF",
+      "url": "PDFFiles/数学分析A/22级数学分析(A)期中考试(周).pdf",
+      "source": "PDFFiles"
+    },
+    {
+      "title": "22级数学分析(A)专题开卷考试",
+      "category": "数学分析A",
+      "size": "64.5KB",
+      "classify": "PDF",
+      "url": "PDFFiles/数学分析A/22级数学分析(A)专题开卷考试.pdf",
+      "source": "PDFFiles"
+    },
+    {
+      "title": "20级数学分析(A)期末考试(李)",
+      "category": "数学分析A",
+      "size": "47.9KB",
+      "classify": "PDF",
+      "url": "PDFFiles/数学分析A/20级数学分析(A)期末考试(李).pdf",
+      "source": "PDFFiles"
+    },
+    {
+      "title": "20数学分析(A)半期（求是）}",
+      "category": "数学分析A",
+      "size": "45.1KB",
+      "classify": "PDF",
+      "url": "PDFFiles/数学分析A/20数学分析(A)半期（求是）}.pdf",
+      "source": "PDFFiles"
+    }
+  ],
+  "数学分析B": [
+    {
+      "title": "24级数学分析(B)期末考试(李)",
+      "category": "数学分析B",
+      "size": "43.9KB",
+      "classify": "PDF",
+      "url": "PDFFiles/数学分析B/24级数学分析(B)期末考试(李).pdf",
+      "source": "PDFFiles"
+    },
+    {
+      "title": "24级数学分析(B)期末考试(周)",
+      "category": "数学分析B",
+      "size": "55.6KB",
+      "classify": "PDF",
+      "url": "PDFFiles/数学分析B/24级数学分析(B)期末考试(周).pdf",
+      "source": "PDFFiles"
+    },
+    {
+      "title": "24级数学分析(B)期中考试(李)",
+      "category": "数学分析B",
+      "size": "39.8KB",
+      "classify": "PDF",
+      "url": "PDFFiles/数学分析B/24级数学分析(B)期中考试(李).pdf",
+      "source": "PDFFiles"
+    },
+    {
+      "title": "24级数学分析(B)期中考试(周)",
+      "category": "数学分析B",
+      "size": "51.6KB",
+      "classify": "PDF",
+      "url": "PDFFiles/数学分析B/24级数学分析(B)期中考试(周).pdf",
+      "source": "PDFFiles"
+    },
+    {
+      "title": "23级数学分析(B)期末考试（何）",
+      "category": "数学分析B",
+      "size": "49.7KB",
+      "classify": "PDF",
+      "url": "PDFFiles/数学分析B/23级数学分析(B)期末考试（何）.pdf",
+      "source": "PDFFiles"
+    },
+    {
+      "title": "23级数学分析(B)期中考试(何)（里面打错了这个是半期的）",
+      "category": "数学分析B",
+      "size": "53.2KB",
+      "classify": "PDF",
+      "url": "PDFFiles/数学分析B/23级数学分析(B)期中考试(何)（里面打错了这个是半期的）.pdf",
+      "source": "PDFFiles"
+    },
+    {
+      "title": "22级数学分析(B)期末考试(周)",
+      "category": "数学分析B",
+      "size": "51.4KB",
+      "classify": "PDF",
+      "url": "PDFFiles/数学分析B/22级数学分析(B)期末考试(周).pdf",
+      "source": "PDFFiles"
+    },
+    {
+      "title": "21级数分b（22年考的不知道那个班）",
+      "category": "数学分析B",
+      "size": "323.0KB",
+      "classify": "PDF",
+      "url": "PDFFiles/数学分析B/21级数分b（22年考的不知道那个班）.pdf",
+      "source": "PDFFiles"
+    },
+    {
+      "title": "21级和22级数学分析(B)期末考试(求是)",
+      "category": "数学分析B",
+      "size": "280.1KB",
+      "classify": "PDF",
+      "url": "PDFFiles/数学分析B/21级和22级数学分析(B)期末考试(求是).pdf",
+      "source": "PDFFiles"
+    }
+  ],
+  "数学分析C": [
+    {
+      "title": "24级数学分析(C)期末考试(求是)",
+      "category": "数学分析C",
+      "size": "31.3KB",
+      "classify": "PDF",
+      "url": "PDFFiles/数学分析C/24级数学分析(C)期末考试(求是).pdf",
+      "source": "PDFFiles"
+    },
+    {
+      "title": "24级数学分析(C)期中考试(求是)",
+      "category": "数学分析C",
+      "size": "70.2KB",
+      "classify": "PDF",
+      "url": "PDFFiles/数学分析C/24级数学分析(C)期中考试(求是).pdf",
+      "source": "PDFFiles"
+    },
+    {
+      "title": "24级数学分析(C)期中考试(大类)",
+      "category": "数学分析C",
+      "size": "75.6KB",
+      "classify": "PDF",
+      "url": "PDFFiles/数学分析C/24级数学分析(C)期中考试(大类).pdf",
+      "source": "PDFFiles"
+    },
+    {
+      "title": "23级数学分析(C)期末考试(求是)",
+      "category": "数学分析C",
+      "size": "74.8KB",
+      "classify": "PDF",
+      "url": "PDFFiles/数学分析C/23级数学分析(C)期末考试(求是).pdf",
+      "source": "PDFFiles"
+    },
+    {
+      "title": "23级数学分析(C)期末考试(曾)",
+      "category": "数学分析C",
+      "size": "74.5KB",
+      "classify": "PDF",
+      "url": "PDFFiles/数学分析C/23级数学分析(C)期末考试(曾).pdf",
+      "source": "PDFFiles"
+    },
+    {
+      "title": "22级数学分析(C)期末考试(吴)",
+      "category": "数学分析C",
+      "size": "53.5KB",
+      "classify": "PDF",
+      "url": "PDFFiles/数学分析C/22级数学分析(C)期末考试(吴).pdf",
+      "source": "PDFFiles"
+    },
+    {
+      "title": "22级数学分析(C)期中考试(曾)",
+      "category": "数学分析C",
+      "size": "56.1KB",
+      "classify": "PDF",
+      "url": "PDFFiles/数学分析C/22级数学分析(C)期中考试(曾).pdf",
+      "source": "PDFFiles"
+    },
+    {
+      "title": "22级数学分析(C)期中考试(吴)",
+      "category": "数学分析C",
+      "size": "49.5KB",
+      "classify": "PDF",
+      "url": "PDFFiles/数学分析C/22级数学分析(C)期中考试(吴).pdf",
+      "source": "PDFFiles"
+    },
+    {
+      "title": "21级数学分析(C)期中考试(吴)",
+      "category": "数学分析C",
+      "size": "52.3KB",
+      "classify": "PDF",
+      "url": "PDFFiles/数学分析C/21级数学分析(C)期中考试(吴).pdf",
+      "source": "PDFFiles"
+    }
+  ],
+  "数理统计": [
+    {
+      "title": "应用数理统计 关静",
+      "category": "数理统计",
+      "size": "65.0MB",
+      "classify": "PDF",
+      "url": "Handout/数理统计/应用数理统计 关静.pdf",
+      "source": "Handout"
+    },
+    {
+      "title": "24-25数理统计B卷",
+      "category": "数理统计",
+      "size": "171.3KB",
+      "classify": "DOC",
+      "url": "PDFFiles/数理统计/24-25数理统计B卷.docx",
+      "source": "PDFFiles"
+    },
+    {
+      "title": "22-23数理统计A卷",
+      "category": "数理统计",
+      "size": "140.8KB",
+      "classify": "DOC",
+      "url": "PDFFiles/数理统计/22-23数理统计A卷.docx",
+      "source": "PDFFiles"
+    }
+  ],
+  "数论选讲": [
+    {
+      "title": "数论选讲20250509",
+      "category": "数论选讲",
+      "size": "582.4KB",
+      "classify": "PDF",
+      "url": "Handout/数论选讲/数论选讲20250509.pdf",
+      "source": "Handout"
+    },
+    {
+      "title": "数论期中 (来自指北)",
+      "category": "数论选讲",
+      "size": "1.2MB",
+      "classify": "PDF",
+      "url": "PDFFiles/数论选讲/数论期中 (来自指北).pdf",
+      "source": "PDFFiles"
+    },
+    {
+      "title": "数论2023级期末",
+      "category": "数论选讲",
+      "size": "53.8KB",
+      "classify": "PDF",
+      "url": "PDFFiles/数论选讲/数论2023级期末.pdf",
+      "source": "PDFFiles"
+    },
+    {
+      "title": "数论2023级期中",
+      "category": "数论选讲",
+      "size": "35.2KB",
+      "classify": "PDF",
+      "url": "PDFFiles/数论选讲/数论2023级期中.pdf",
+      "source": "PDFFiles"
+    },
+    {
+      "title": "22级数论选讲期末考试",
+      "category": "数论选讲",
+      "size": "57.0KB",
+      "classify": "PDF",
+      "url": "PDFFiles/数论选讲/22级数论选讲期末考试.pdf",
+      "source": "PDFFiles"
+    }
+  ],
+  "概率论": [
+    {
+      "title": "概率论基础 第三版 (李贤平) (Z-Library)",
+      "category": "概率论",
+      "size": "18.1MB",
+      "classify": "PDF",
+      "url": "Handout/概率论/概率论基础 第三版 (李贤平) (Z-Library).pdf",
+      "source": "Handout"
+    },
+    {
+      "title": "概率论作业",
+      "category": "概率论",
+      "size": "1.5MB",
+      "classify": "ZIP",
+      "url": "Handout/概率论/概率论作业.zip",
+      "source": "Handout"
+    },
+    {
+      "title": "概率论notes（杨雪）",
+      "category": "概率论",
+      "size": "1.2MB",
+      "classify": "PDF",
+      "url": "Handout/概率论/概率论notes（杨雪）.pdf",
+      "source": "Handout"
+    },
+    {
+      "title": "某一级概率论期中考试（注：指北上有手写版本）",
+      "category": "概率论",
+      "size": "36.3KB",
+      "classify": "PDF",
+      "url": "PDFFiles/概率论/某一级概率论期中考试（注：指北上有手写版本）.pdf",
+      "source": "PDFFiles"
+    },
+    {
+      "title": "另一级概率论期中考试（注：指北上有手写版本）",
+      "category": "概率论",
+      "size": "37.5KB",
+      "classify": "PDF",
+      "url": "PDFFiles/概率论/另一级概率论期中考试（注：指北上有手写版本）.pdf",
+      "source": "PDFFiles"
+    },
+    {
+      "title": "24级概率论期末考试 ",
+      "category": "概率论",
+      "size": "60.4KB",
+      "classify": "PDF",
+      "url": "PDFFiles/概率论/24级概率论期末考试 .pdf",
+      "source": "PDFFiles"
+    },
+    {
+      "title": "23级概率论期末考试 ",
+      "category": "概率论",
+      "size": "57.0KB",
+      "classify": "PDF",
+      "url": "PDFFiles/概率论/23级概率论期末考试 .pdf",
+      "source": "PDFFiles"
+    },
+    {
+      "title": "22级概率论期末考试",
+      "category": "概率论",
+      "size": "73.6KB",
+      "classify": "PDF",
+      "url": "PDFFiles/概率论/22级概率论期末考试.pdf",
+      "source": "PDFFiles"
+    },
+    {
+      "title": "21级概率论",
+      "category": "概率论",
+      "size": "85.2KB",
+      "classify": "PDF",
+      "url": "PDFFiles/概率论/21级概率论.pdf",
+      "source": "PDFFiles"
+    },
+    {
+      "title": "19级概率论期末考试",
+      "category": "概率论",
+      "size": "79.3KB",
+      "classify": "PDF",
+      "url": "PDFFiles/概率论/19级概率论期末考试.pdf",
+      "source": "PDFFiles"
+    }
+  ],
+  "泛函分析": [
+    {
+      "title": "泛函分析基础知识小练习",
+      "category": "泛函分析",
+      "size": "729.1KB",
+      "classify": "ZIP",
+      "url": "Handout/泛函分析/泛函分析基础知识小练习.zip",
+      "source": "Handout"
+    },
+    {
+      "title": "25_26泛函分析期末考试_A_卷",
+      "category": "泛函分析",
+      "size": "112.2KB",
+      "classify": "PDF",
+      "url": "PDFFiles/泛函分析/25_26泛函分析期末考试_A_卷.pdf",
+      "source": "PDFFiles"
+    },
+    {
+      "title": "24_25泛函分析期末考试_A_卷",
+      "category": "泛函分析",
+      "size": "139.9KB",
+      "classify": "PDF",
+      "url": "PDFFiles/泛函分析/24_25泛函分析期末考试_A_卷.pdf",
+      "source": "PDFFiles"
+    }
+  ],
+  "测度论": [
+    {
+      "title": "概率论基础(Z-Library)",
+      "category": "测度论",
+      "size": "2.0MB",
+      "classify": "PDF",
+      "url": "Handout/测度论/概率论基础(Z-Library).pdf",
+      "source": "Handout"
+    },
+    {
+      "title": "2024年测度论期末试题",
+      "category": "测度论",
+      "size": "360.5KB",
+      "classify": "PDF",
+      "url": "PDFFiles/测度论/2024年测度论期末试题.pdf",
+      "source": "PDFFiles"
+    }
+  ],
+  "算法设计与分析": [
+    {
+      "title": "25-26蒜发(1)",
+      "category": "算法设计与分析",
+      "size": "887.1KB",
+      "classify": "DOC",
+      "url": "PDFFiles/算法设计与分析/25-26蒜发(1).docx",
+      "source": "PDFFiles"
+    }
+  ],
+  "组合数学": [
+    {
+      "title": "组合数学讲义",
+      "category": "组合数学",
+      "size": "1.6MB",
+      "classify": "PDF",
+      "url": "Handout/组合数学/组合数学讲义.pdf",
+      "source": "Handout"
+    },
+    {
+      "title": "24_25组合数学期末考试_A_卷",
+      "category": "组合数学",
+      "size": "90.3KB",
+      "classify": "PDF",
+      "url": "PDFFiles/组合数学/24_25组合数学期末考试_A_卷.pdf",
+      "source": "PDFFiles"
+    }
+  ],
+  "高等代数A": [
+    {
+      "title": "高等代数（孙院）",
+      "category": "高等代数A",
+      "size": "2.1MB",
+      "classify": "PDF",
+      "url": "Handout/高等代数A/高等代数（孙院）.pdf",
+      "source": "Handout"
+    },
+    {
+      "title": "25级高等代数(A)期末考试",
+      "category": "高等代数A",
+      "size": "54.4KB",
+      "classify": "PDF",
+      "url": "PDFFiles/高等代数A/25级高等代数(A)期末考试.pdf",
+      "source": "PDFFiles"
+    },
+    {
+      "title": "25级高等代数(A)期中考试",
+      "category": "高等代数A",
+      "size": "67.9KB",
+      "classify": "PDF",
+      "url": "PDFFiles/高等代数A/25级高等代数(A)期中考试.pdf",
+      "source": "PDFFiles"
+    },
+    {
+      "title": "24级高等代数A期中考试",
+      "category": "高等代数A",
+      "size": "63.3KB",
+      "classify": "PDF",
+      "url": "PDFFiles/高等代数A/24级高等代数A期中考试.pdf",
+      "source": "PDFFiles"
+    },
+    {
+      "title": "24级高等代数(A)期末考试",
+      "category": "高等代数A",
+      "size": "53.5KB",
+      "classify": "PDF",
+      "url": "PDFFiles/高等代数A/24级高等代数(A)期末考试.pdf",
+      "source": "PDFFiles"
+    },
+    {
+      "title": "23级高等代数(A)期末考试",
+      "category": "高等代数A",
+      "size": "60.5KB",
+      "classify": "PDF",
+      "url": "PDFFiles/高等代数A/23级高等代数(A)期末考试.pdf",
+      "source": "PDFFiles"
+    },
+    {
+      "title": "23级高等代数(A)期中考试",
+      "category": "高等代数A",
+      "size": "51.7KB",
+      "classify": "PDF",
+      "url": "PDFFiles/高等代数A/23级高等代数(A)期中考试.pdf",
+      "source": "PDFFiles"
+    },
+    {
+      "title": "22级高等代数(A)期末考试",
+      "category": "高等代数A",
+      "size": "61.7KB",
+      "classify": "PDF",
+      "url": "PDFFiles/高等代数A/22级高等代数(A)期末考试.pdf",
+      "source": "PDFFiles"
+    },
+    {
+      "title": "22级高等代数(A)期中考试",
+      "category": "高等代数A",
+      "size": "56.3KB",
+      "classify": "PDF",
+      "url": "PDFFiles/高等代数A/22级高等代数(A)期中考试.pdf",
+      "source": "PDFFiles"
+    },
+    {
+      "title": "21级高等代数(A)期末考试",
+      "category": "高等代数A",
+      "size": "66.5KB",
+      "classify": "PDF",
+      "url": "PDFFiles/高等代数A/21级高等代数(A)期末考试.pdf",
+      "source": "PDFFiles"
+    },
+    {
+      "title": "21级高等代数(A)期中考试",
+      "category": "高等代数A",
+      "size": "67.0KB",
+      "classify": "PDF",
+      "url": "PDFFiles/高等代数A/21级高等代数(A)期中考试.pdf",
+      "source": "PDFFiles"
+    }
+  ],
+  "高等代数B": [
+    {
+      "title": "24级高等代数(B)期末考试",
+      "category": "高等代数B",
+      "size": "46.8KB",
+      "classify": "PDF",
+      "url": "PDFFiles/高等代数B/24级高等代数(B)期末考试.pdf",
+      "source": "PDFFiles"
+    },
+    {
+      "title": "24级高等代数(B)期中考试",
+      "category": "高等代数B",
+      "size": "66.5KB",
+      "classify": "PDF",
+      "url": "PDFFiles/高等代数B/24级高等代数(B)期中考试.pdf",
+      "source": "PDFFiles"
+    },
+    {
+      "title": "23级高等代数(B)期末考试",
+      "category": "高等代数B",
+      "size": "49.8KB",
+      "classify": "PDF",
+      "url": "PDFFiles/高等代数B/23级高等代数(B)期末考试.pdf",
+      "source": "PDFFiles"
+    },
+    {
+      "title": "23级高等代数(B)期中考试",
+      "category": "高等代数B",
+      "size": "62.1KB",
+      "classify": "PDF",
+      "url": "PDFFiles/高等代数B/23级高等代数(B)期中考试.pdf",
+      "source": "PDFFiles"
+    },
+    {
+      "title": "22级高等代数(B)期中考试",
+      "category": "高等代数B",
+      "size": "62.7KB",
+      "classify": "PDF",
+      "url": "PDFFiles/高等代数B/22级高等代数(B)期中考试.pdf",
+      "source": "PDFFiles"
+    },
+    {
+      "title": "21级高等代数(B)期末考试",
+      "category": "高等代数B",
+      "size": "61.1KB",
+      "classify": "PDF",
+      "url": "PDFFiles/高等代数B/21级高等代数(B)期末考试.pdf",
+      "source": "PDFFiles"
+    },
+    {
+      "title": "21级高等代数(B)期中考试",
+      "category": "高等代数B",
+      "size": "59.5KB",
+      "classify": "PDF",
+      "url": "PDFFiles/高等代数B/21级高等代数(B)期中考试.pdf",
+      "source": "PDFFiles"
+    }
+  ],
+  "ODE": [
+    {
+      "title": "求是",
+      "category": "ODE",
+      "size": "7.7MB",
+      "classify": "ZIP",
+      "url": "Handout/ODE/求是.zip",
+      "source": "Handout"
+    },
+    {
+      "title": "大类-常微分方程教程 第三版 (丁同仁，李承治) (Z-Library)",
+      "category": "ODE",
+      "size": "41.5MB",
+      "classify": "PDF",
+      "url": "Handout/ODE/大类-常微分方程教程 第三版 (丁同仁，李承治) (Z-Library).pdf",
+      "source": "Handout"
+    }
+  ],
+  "多元统计分析": [
+    {
+      "title": "应用多元统计分析2",
+      "category": "多元统计分析",
+      "size": "15.5MB",
+      "classify": "PDF",
+      "url": "Handout/多元统计分析/应用多元统计分析2.pdf",
+      "source": "Handout"
+    },
+    {
+      "title": "应用多元统计分析1",
+      "category": "多元统计分析",
+      "size": "17.6MB",
+      "classify": "PDF",
+      "url": "Handout/多元统计分析/应用多元统计分析1.pdf",
+      "source": "Handout"
+    }
+  ],
+  "微分流形": [
+    {
+      "title": "from calculus to cohomology(1)",
+      "category": "微分流形",
+      "size": "6.2MB",
+      "classify": "PDF",
+      "url": "Handout/微分流形/from calculus to cohomology(1).pdf",
+      "source": "Handout"
+    }
+  ]
+};

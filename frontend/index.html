@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>北洋数院集萃</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="北洋数院集萃：数学课程讲义、往年题与学习资料下载站。">
+    <meta name="api-base" content="">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="stylesheet" href="DLS00.css">
+    <link rel="icon" href="/img/039_00.png" type="image/png">
+</head>
+<body>
+    <header class="site-header">
+        <div class="header-inner">
+            <button class="brand" type="button" data-jump-home aria-label="返回首页">
+                <span class="brand-mark">∑</span>
+                <span>
+                    <strong>北洋数院集萃</strong>
+                    <small>Beiyang Mathematics</small>
+                </span>
+            </button>
+            <nav class="top-nav" aria-label="顶部导航">
+                <button type="button" data-top-action="home">首页</button>
+                <button type="button" data-top-action="all">全部资源</button>
+                <button type="button" data-top-action="hot">热门下载</button>
+            </nav>
+        </div>
+    </header>
+
+    <main class="page-shell">
+        <aside class="sidebar" aria-label="资源分类目录">
+            <section class="side-card site-summary" aria-label="站点概览">
+                <p class="side-label">Resource Index</p>
+                <h2>资源目录</h2>
+                <div class="summary-grid compact">
+                    <div>
+                        <strong id="summary-total-files">--</strong>
+                        <span>文件</span>
+                    </div>
+                    <div>
+                        <strong id="summary-total-categories">--</strong>
+                        <span>课程</span>
+                    </div>
+                </div>
+            </section>
+
+            <section class="side-card quick-entry">
+                <button class="category-button active" type="button" data-category="首页">
+                    <span class="button-title">首页</span>
+                    <span class="button-meta">说明与学科地图</span>
+                </button>
+                <button class="category-button" type="button" data-category="全部资源">
+                    <span class="button-title">全部资源</span>
+                    <span class="button-meta" id="all-files-count">-- 份文件</span>
+                </button>
+            </section>
+
+            <section class="side-card">
+                <div class="side-section-head">
+                    <h2>学科分类</h2>
+                    <button id="collapse-toggle" type="button" aria-expanded="true">收起</button>
+                </div>
+                <div id="category-tree" class="category-tree"></div>
+            </section>
+
+            <section class="side-card stats-panel" id="hot-panel">
+                <div class="side-section-head">
+                    <h2>热门下载</h2>
+                    <button type="button" data-refresh-hot>刷新</button>
+                </div>
+                <ol id="hot-files" class="hot-files">
+                    <li>加载中……</li>
+                </ol>
+            </section>
+        </aside>
+
+        <section class="content-panel" aria-label="文件列表">
+            <div class="toolbar">
+                <div class="view-heading">
+                    <p id="breadcrumb" class="breadcrumb">首页</p>
+                    <h1 id="view-title">北洋数院集萃</h1>
+                    <p id="view-subtitle">选择课程分类，或直接搜索你需要的资料。</p>
+                </div>
+                <label class="search-box">
+                    <span>搜索</span>
+                    <input id="search-input" type="search" placeholder="输入课程、年份、文件名、PDF/ZIP……" autocomplete="off">
+                </label>
+            </div>
+
+            <div class="filter-row" aria-label="资源类型筛选">
+                <button class="filter-chip active" type="button" data-source="all">全部</button>
+                <button class="filter-chip" type="button" data-source="PDFFiles">考试题目</button>
+                <button class="filter-chip" type="button" data-source="Handout">讲义资料</button>
+                <select id="sort-select" class="sort-select" aria-label="排序方式">
+                    <option value="category">按课程排序</option>
+                    <option value="title">按文件名排序</option>
+                    <option value="source">按资源类型排序</option>
+                    <option value="size">按文件大小排序</option>
+                </select>
+            </div>
+
+            <div id="result-summary" class="result-summary" aria-live="polite"></div>
+            <div id="file-grid" class="file-grid"></div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-grid">
+            <section class="friendly-links">
+                <h3>友情链接</h3>
+                <a href="https://jiyouhai.github.io/tju-math-guide/professional_courses/">天津大学数学学院本科生指北</a>
+                <a href="https://cs.tjuse.com/zh-CN/">天津大学课程共享计划</a>
+            </section>
+            <section>
+                <h3>联系开发者</h3>
+                <div class="footer-contact-links icon-only">
+                    <a href="https://github.com/SecretRenko"><i class="fab fa-github"></i></a>
+                    <a href="mailto:renko_usami@163.com"><i class="fas fa-envelope"></i></a>
+                </div>
+            </section>
+            <section>
+                <h3>同样感谢</h3>
+                <div class="ai-logo-row">
+                    <a class="ai-logo" href="https://www.deepseek.com/" target="_blank" rel="noopener noreferrer">
+                        <img src="img/logos/deepseek.svg" alt="DeepSeek logo">
+                    </a>
+                    <a class="ai-logo" href="https://chatgpt.com/" target="_blank" rel="noopener noreferrer">
+                        <img src="img/logos/chatgpt.svg" alt="ChatGPT logo">
+                    </a>
+                </div>
+            </section>
+            <section>
+                <h3>使用条款</h3>
+                <p>所有资源仅供学习交流使用，请勿用于商业用途。</p>
+            </section>
+        </div>
+        <div class="footer-bottom">© 2026 北洋数院集萃</div>
+    </footer>
+
+    <script>
+        const apiBaseMeta = document.querySelector('meta[name="api-base"]');
+        let API_BASE = apiBaseMeta ? apiBaseMeta.getAttribute('content').replace(/\/$/, '') : '';
+        if (!API_BASE && (location.port === '8080' || location.protocol === 'file:')) {
+            API_BASE = 'http://127.0.0.1:3001';
+        }
+
+        const DEFAULT_CATEGORY_GROUPS = [
+            { name: '分析与方程', description: '分析、测度、泛函与微分方程', items: ['数学分析A', '数学分析B', '数学分析C', '实变函数', '复变函数', '测度论', '泛函分析', 'ODE', 'PDE'] },
+            { name: '代数·几何·拓扑', description: '代数结构、几何与拓扑', items: ['高等代数A', '高等代数B', '抽象代数', '数论选讲', '微分几何', '微分流形', '拓扑学', '代数拓扑'] },
+            { name: '概率统计与离散', description: '概率、统计、组合与数据分析', items: ['概率论', '数理统计', '多元统计分析', '组合数学'] },
+            { name: '计算与应用', description: '算法与数值计算', items: ['数值线性代数', '算法设计与分析'] },
+            { name: '物理与公共课', description: '公共基础课程', items: ['大学物理A', '大学物理B'] }
+        ];
+
+        const SOURCE_LABELS = {
+            all: '全部资源',
+            PDFFiles: '考试题目',
+            Handout: '讲义资料'
+        };
+        const SOURCE_BADGES = {
+            PDFFiles: '卷',
+            Handout: '义'
+        };
+
+        let fileData = {};
+        let categoryGroups = DEFAULT_CATEGORY_GROUPS;
+        let allFiles = [];
+        const state = {
+            category: '首页',
+            source: 'all',
+            query: '',
+            sort: 'category',
+            collapsed: false
+        };
+
+        document.addEventListener('DOMContentLoaded', async () => {
+            bindStaticEvents();
+            await Promise.all([loadFileData(), loadCategoryConfig()]);
+            rebuildAllFiles();
+            renderStaticStats();
+            renderCategoryTree();
+            updateView();
+            loadHotFiles();
+        });
+
+        async function loadFileData() {
+            try {
+                const response = await fetch('file_data.json', { cache: 'no-store' });
+                if (!response.ok) throw new Error('文件数据加载失败');
+                fileData = await response.json();
+            } catch (error) {
+                console.error('加载文件数据失败:', error);
+                fileData = {};
+            }
+        }
+
+        async function loadCategoryConfig() {
+            try {
+                const response = await fetch('category_config.json', { cache: 'no-store' });
+                if (!response.ok) throw new Error('分类配置加载失败');
+                const json = await response.json();
+                if (Array.isArray(json) && json.length > 0) categoryGroups = json;
+            } catch (error) {
+                console.warn('使用内置分类配置:', error);
+                categoryGroups = DEFAULT_CATEGORY_GROUPS;
+            }
+        }
+
+        function rebuildAllFiles() {
+            allFiles = Object.entries(fileData).flatMap(([category, list]) => {
+                if (!Array.isArray(list)) return [];
+                return list.map(file => ({ ...file, category: file.category || category }));
+            });
+        }
+
+        function bindStaticEvents() {
+            document.querySelector('[data-jump-home]').addEventListener('click', () => setCategory('首页'));
+            document.querySelectorAll('[data-top-action]').forEach(button => {
+                button.addEventListener('click', () => {
+                    const action = button.dataset.topAction;
+                    if (action === 'home') setCategory('首页');
+                    if (action === 'all') setCategory('全部资源');
+                    if (action === 'hot') document.getElementById('hot-panel')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                });
+            });
+
+            document.querySelectorAll('[data-source]').forEach(button => {
+                button.addEventListener('click', () => {
+                    state.source = button.dataset.source || 'all';
+                    if (state.category === '首页') state.category = '全部资源';
+                    updateSourceButtons();
+                    updateView();
+                });
+            });
+
+            document.getElementById('search-input').addEventListener('input', event => {
+                state.query = event.target.value.trim();
+                if (state.query && state.category === '首页') state.category = '全部资源';
+                updateView();
+            });
+
+            document.getElementById('sort-select').addEventListener('change', event => {
+                state.sort = event.target.value;
+                updateView();
+            });
+
+            document.querySelector('[data-refresh-hot]').addEventListener('click', loadHotFiles);
+
+            document.getElementById('collapse-toggle').addEventListener('click', () => {
+                state.collapsed = !state.collapsed;
+                document.querySelector('.category-tree').classList.toggle('is-collapsed', state.collapsed);
+                const toggle = document.getElementById('collapse-toggle');
+                toggle.textContent = state.collapsed ? '展开' : '收起';
+                toggle.setAttribute('aria-expanded', String(!state.collapsed));
+            });
+        }
+
+        function setCategory(category) {
+            state.category = category;
+            state.query = '';
+            document.getElementById('search-input').value = '';
+            updateView();
+        }
+
+        function renderStaticStats() {
+            const categories = Object.keys(fileData);
+            document.getElementById('summary-total-files').textContent = allFiles.length;
+            document.getElementById('summary-total-categories').textContent = categories.length;
+            document.getElementById('all-files-count').textContent = `${allFiles.length} 份文件`;
+        }
+
+        function renderCategoryTree() {
+            const tree = document.getElementById('category-tree');
+            tree.innerHTML = '';
+
+            const existing = new Set(Object.keys(fileData));
+            const grouped = new Set();
+            const normalizedGroups = categoryGroups.map(group => ({
+                ...group,
+                items: (group.items || []).filter(category => existing.has(category))
+            })).filter(group => group.items.length > 0);
+
+            normalizedGroups.forEach(group => group.items.forEach(item => grouped.add(item)));
+            const leftovers = [...existing].filter(category => !grouped.has(category)).sort((a, b) => a.localeCompare(b, 'zh-CN'));
+            if (leftovers.length > 0) {
+                normalizedGroups.push({ name: '其它课程', description: '未归入固定分组的课程', items: leftovers });
+            }
+
+            normalizedGroups.forEach((group, index) => {
+                const details = document.createElement('details');
+                details.className = 'category-group';
+                details.open = index < 3;
+
+                const summary = document.createElement('summary');
+                const groupCount = group.items.reduce((sum, category) => sum + (fileData[category]?.length || 0), 0);
+                summary.innerHTML = `<span>${escapeHtml(group.name)}</span><em>${groupCount}</em>`;
+                details.appendChild(summary);
+
+                if (group.description) {
+                    const desc = document.createElement('p');
+                    desc.className = 'group-description';
+                    desc.textContent = group.description;
+                    details.appendChild(desc);
+                }
+
+                const list = document.createElement('div');
+                list.className = 'category-buttons';
+                group.items.forEach(category => list.appendChild(createCategoryButton(category)));
+                details.appendChild(list);
+                tree.appendChild(details);
+            });
+
+            document.querySelectorAll('[data-category]').forEach(button => {
+                button.addEventListener('click', () => setCategory(button.dataset.category));
+            });
+        }
+
+        function createCategoryButton(category) {
+            const button = document.createElement('button');
+            button.className = 'category-button';
+            button.type = 'button';
+            button.dataset.category = category;
+
+            const count = fileData[category]?.length || 0;
+            const examCount = (fileData[category] || []).filter(file => file.source === 'PDFFiles').length;
+            const handoutCount = (fileData[category] || []).filter(file => file.source === 'Handout').length;
+
+            const title = document.createElement('span');
+            title.className = 'button-title';
+            title.textContent = category;
+            const meta = document.createElement('span');
+            meta.className = 'button-meta';
+            meta.textContent = `${count} 份 · 卷 ${examCount} · 义 ${handoutCount}`;
+
+            button.appendChild(title);
+            button.appendChild(meta);
+            return button;
+        }
+
+        function updateView() {
+            updateActiveCategoryButtons();
+            updateSourceButtons();
+
+            const contentPanel = document.querySelector('.content-panel');
+            contentPanel?.classList.toggle('is-home', state.category === '首页');
+
+            if (state.category === '首页') {
+                renderHome();
+                return;
+            }
+
+            const files = getVisibleFiles();
+            renderHeading(files.length);
+            renderResultSummary(files);
+            renderFileSections(files);
+        }
+
+        function renderHome() {
+            document.getElementById('breadcrumb').textContent = '首页';
+            document.getElementById('view-title').textContent = '资料检索';
+            document.getElementById('view-subtitle').textContent = '使用搜索框或左侧目录查找课程资料。';
+            document.getElementById('result-summary').innerHTML = '';
+            const grid = document.getElementById('file-grid');
+            grid.className = 'file-grid home-grid';
+            grid.innerHTML = '<div class="loading-card">首页加载中……</div>';
+
+            fetch('home.html', { cache: 'no-store' })
+                .then(response => response.text())
+                .then(html => {
+                    grid.innerHTML = html;
+                    hydrateHomeContent();
+                })
+                .catch(() => {
+                    grid.innerHTML = '<div class="empty-state"><h2>首页内容加载失败</h2><p>请检查 home.html 是否存在。</p></div>';
+                });
+        }
+
+        function hydrateHomeContent() {
+            const examFiles = allFiles.filter(file => file.source === 'PDFFiles').length;
+            const handoutFiles = allFiles.filter(file => file.source === 'Handout').length;
+            setHomeStat('totalFiles', allFiles.length);
+            setHomeStat('examFiles', examFiles);
+            setHomeStat('handoutFiles', handoutFiles);
+
+            document.querySelectorAll('[data-home-action]').forEach(button => {
+                button.addEventListener('click', () => {
+                    if (button.dataset.homeAction === 'exams') state.source = 'PDFFiles';
+                    if (button.dataset.homeAction === 'all') state.source = 'all';
+                    setCategory('全部资源');
+                });
+            });
+
+            const map = document.getElementById('home-category-map');
+            if (!map) return;
+            const sorted = [...Object.keys(fileData)].sort((a, b) => (fileData[b]?.length || 0) - (fileData[a]?.length || 0));
+            sorted.forEach(category => {
+                const button = document.createElement('button');
+                button.type = 'button';
+                button.className = 'home-category-card';
+                button.dataset.category = category;
+                button.innerHTML = `<strong>${escapeHtml(category)}</strong><span>${fileData[category].length} 份资源</span>`;
+                button.addEventListener('click', () => setCategory(category));
+                map.appendChild(button);
+            });
+        }
+
+        function setHomeStat(name, value) {
+            document.querySelectorAll(`[data-home-stat="${name}"]`).forEach(el => { el.textContent = value; });
+        }
+
+        function getVisibleFiles() {
+            const base = state.category === '全部资源' ? [...allFiles] : [...(fileData[state.category] || [])];
+            const sourceFiltered = state.source === 'all' ? base : base.filter(file => file.source === state.source);
+            const query = state.query.toLowerCase();
+            const searched = query ? sourceFiltered.filter(file => {
+                const haystack = [file.title, file.category, file.source, file.classify, file.size, file.url].join(' ').toLowerCase();
+                return haystack.includes(query);
+            }) : sourceFiltered;
+            return sortFiles(searched);
+        }
+
+        function sortFiles(files) {
+            return [...files].sort((a, b) => {
+                if (state.sort === 'title') return String(a.title || '').localeCompare(String(b.title || ''), 'zh-CN');
+                if (state.sort === 'source') return String(a.source || '').localeCompare(String(b.source || ''), 'zh-CN') || String(a.category || '').localeCompare(String(b.category || ''), 'zh-CN');
+                if (state.sort === 'size') return parseSize(b.size) - parseSize(a.size);
+                return String(a.category || '').localeCompare(String(b.category || ''), 'zh-CN') || String(a.title || '').localeCompare(String(b.title || ''), 'zh-CN');
+            });
+        }
+
+        function renderHeading(count) {
+            const typeText = SOURCE_LABELS[state.source] || '全部资源';
+            const categoryText = state.category === '全部资源' ? '全部课程' : state.category;
+            document.getElementById('breadcrumb').textContent = `资源目录 / ${categoryText}`;
+            document.getElementById('view-title').textContent = categoryText;
+            document.getElementById('view-subtitle').textContent = `${typeText} · 当前显示 ${count} 份文件${state.query ? ` · 搜索“${state.query}”` : ''}`;
+        }
+
+        function renderResultSummary(files) {
+            const examFiles = files.filter(file => file.source === 'PDFFiles').length;
+            const handoutFiles = files.filter(file => file.source === 'Handout').length;
+            const categories = new Set(files.map(file => file.category)).size;
+            const totalSize = files.reduce((sum, file) => sum + parseSize(file.size), 0);
+            document.getElementById('result-summary').innerHTML = `
+                <article><strong>${files.length}</strong><span>当前结果</span></article>
+                <article><strong>${categories}</strong><span>涉及课程</span></article>
+                <article><strong>${examFiles}</strong><span>考试题目</span></article>
+                <article><strong>${handoutFiles}</strong><span>讲义资料</span></article>
+                <article><strong>${formatSize(totalSize)}</strong><span>估算大小</span></article>
+            `;
+        }
+
+        function renderFileSections(files) {
+            const grid = document.getElementById('file-grid');
+            grid.className = 'file-grid';
+            grid.innerHTML = '';
+
+            if (files.length === 0) {
+                grid.innerHTML = '<div class="empty-state"><h2>没有找到匹配资源</h2><p>可以换一个关键词，或切换资源类型筛选。</p></div>';
+                return;
+            }
+
+            const sections = buildSections(files);
+            sections.forEach(section => {
+                const wrapper = document.createElement('section');
+                wrapper.className = 'source-group';
+
+                const heading = document.createElement('div');
+                heading.className = 'source-title';
+                const title = document.createElement('h2');
+                title.textContent = `${section.title} (${section.files.length})`;
+                const desc = document.createElement('p');
+                desc.textContent = section.description;
+                heading.appendChild(title);
+                heading.appendChild(desc);
+
+                const content = document.createElement('div');
+                content.className = 'group-content';
+                section.files.forEach(file => content.appendChild(createFileCard(file)));
+
+                wrapper.appendChild(heading);
+                wrapper.appendChild(content);
+                grid.appendChild(wrapper);
+            });
+        }
+
+        function buildSections(files) {
+            if (state.category !== '全部资源' && state.source === 'all') {
+                return ['PDFFiles', 'Handout'].map(source => ({
+                    key: source,
+                    title: SOURCE_LABELS[source],
+                    description: source === 'PDFFiles' ? '往年题、回忆版试卷与考试相关资料。' : '教材、讲义、笔记与补充材料。',
+                    files: files.filter(file => file.source === source)
+                })).filter(section => section.files.length > 0);
+            }
+
+            if (state.category === '全部资源' && state.source === 'all') {
+                return ['PDFFiles', 'Handout'].map(source => ({
+                    key: source,
+                    title: SOURCE_LABELS[source],
+                    description: source === 'PDFFiles' ? '所有课程下的考试相关资料。' : '所有课程下的讲义与教材资料。',
+                    files: files.filter(file => file.source === source)
+                })).filter(section => section.files.length > 0);
+            }
+
+            return [{
+                key: state.source,
+                title: SOURCE_LABELS[state.source] || '搜索结果',
+                description: state.category === '全部资源' ? '当前筛选条件下的全部文件。' : `${state.category} 下的筛选结果。`,
+                files
+            }];
+        }
+
+        function createFileCard(file) {
+            const fileCard = document.createElement('article');
+            fileCard.className = 'file-card';
+
+            const badge = document.createElement('div');
+            badge.className = `file-badge ${file.source === 'Handout' ? 'handout' : 'exam'}`;
+            badge.textContent = SOURCE_BADGES[file.source] || (file.classify || 'FILE').slice(0, 2);
+
+            const info = document.createElement('div');
+            info.className = 'file-info';
+
+            const chips = document.createElement('div');
+            chips.className = 'file-chips';
+            chips.appendChild(createChip(file.category || '未分类'));
+            chips.appendChild(createChip(SOURCE_LABELS[file.source] || file.source || '未知来源'));
+            chips.appendChild(createChip(file.classify || 'FILE'));
+            if (file.size) chips.appendChild(createChip(file.size));
+
+            const title = document.createElement('h3');
+            title.className = 'file-title';
+            title.textContent = file.title || '未命名文件';
+
+            const pathLine = document.createElement('p');
+            pathLine.className = 'file-path';
+            pathLine.textContent = file.url || '';
+
+            const actions = document.createElement('div');
+            actions.className = 'file-actions';
+
+            const btn = document.createElement('a');
+            btn.href = `${API_BASE}/api/download?file=${encodeURIComponent(file.url)}`;
+            btn.className = 'download-btn';
+            btn.textContent = '立即下载';
+            btn.dataset.url = file.url;
+            btn.addEventListener('click', () => setTimeout(loadHotFiles, 1200));
+
+            const copy = document.createElement('button');
+            copy.type = 'button';
+            copy.className = 'copy-btn';
+            copy.textContent = '复制路径';
+            copy.addEventListener('click', async () => {
+                try {
+                    await navigator.clipboard.writeText(file.url || '');
+                    copy.textContent = '已复制';
+                    setTimeout(() => { copy.textContent = '复制路径'; }, 1200);
+                } catch {
+                    copy.textContent = '复制失败';
+                    setTimeout(() => { copy.textContent = '复制路径'; }, 1200);
+                }
+            });
+
+            actions.appendChild(btn);
+            actions.appendChild(copy);
+            info.appendChild(chips);
+            info.appendChild(title);
+            info.appendChild(pathLine);
+            info.appendChild(actions);
+            fileCard.appendChild(badge);
+            fileCard.appendChild(info);
+            return fileCard;
+        }
+
+        function createChip(text) {
+            const chip = document.createElement('span');
+            chip.className = 'chip';
+            chip.textContent = text;
+            return chip;
+        }
+
+        async function loadHotFiles() {
+            const hotList = document.getElementById('hot-files');
+            if (!hotList) return;
+            hotList.innerHTML = '<li>加载中……</li>';
+
+            try {
+                const response = await fetch(`${API_BASE}/api/hot?limit=8`, { cache: 'no-store' });
+                if (!response.ok) throw new Error('热门排行加载失败');
+                const result = await response.json();
+                const files = result.items || [];
+
+                if (files.length === 0) {
+                    hotList.innerHTML = '<li>暂无下载记录</li>';
+                    return;
+                }
+
+                hotList.innerHTML = '';
+                files.forEach(item => {
+                    const li = document.createElement('li');
+                    const link = document.createElement('a');
+                    link.href = `${API_BASE}/api/download?file=${encodeURIComponent(item.file)}`;
+                    link.textContent = item.title || item.file;
+                    const meta = document.createElement('em');
+                    meta.textContent = `${item.category || '未分类'} · ${item.downloads || 0} 次`;
+                    li.appendChild(link);
+                    li.appendChild(meta);
+                    hotList.appendChild(li);
+                });
+            } catch (error) {
+                console.warn(error);
+                hotList.innerHTML = '<li>后端未连接</li>';
+            }
+        }
+
+        function updateActiveCategoryButtons() {
+            document.querySelectorAll('[data-category]').forEach(button => {
+                button.classList.toggle('active', button.dataset.category === state.category);
+            });
+        }
+
+        function updateSourceButtons() {
+            document.querySelectorAll('[data-source]').forEach(button => {
+                button.classList.toggle('active', button.dataset.source === state.source);
+            });
+        }
+
+        function parseSize(size) {
+            if (!size || typeof size !== 'string') return 0;
+            const match = size.trim().match(/^([\d.]+)\s*(B|KB|MB|GB)?$/i);
+            if (!match) return 0;
+            const value = Number(match[1]);
+            const unit = (match[2] || 'B').toUpperCase();
+            const factor = { B: 1, KB: 1024, MB: 1024 ** 2, GB: 1024 ** 3 }[unit] || 1;
+            return value * factor;
+        }
+
+        function formatSize(bytes) {
+            if (!bytes) return '--';
+            if (bytes >= 1024 ** 3) return `${(bytes / 1024 ** 3).toFixed(1)}GB`;
+            if (bytes >= 1024 ** 2) return `${(bytes / 1024 ** 2).toFixed(1)}MB`;
+            if (bytes >= 1024) return `${(bytes / 1024).toFixed(1)}KB`;
+            return `${bytes}B`;
+        }
+
+        function escapeHtml(input) {
+            return String(input)
+                .replaceAll('&', '&amp;')
+                .replaceAll('<', '&lt;')
+                .replaceAll('>', '&gt;')
+                .replaceAll('"', '&quot;')
+                .replaceAll("'", '&#039;');
+        }
+    </script>
+</body>
+</html>

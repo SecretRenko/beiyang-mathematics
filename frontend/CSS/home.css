@@ -1,0 +1,115 @@
+
+
+
+.home-content {
+    
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.welcome-header {
+    text-align: center;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #00528e;
+}
+
+.welcome-header h2 {
+    color: #00528e;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 18px;
+    color: #666;
+}
+
+.home-content h3 {
+    color: #00528e;
+    margin: 25px 0 15px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #eee;
+}
+
+.home-content ul, .home-content ol {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.home-content li {
+    margin-bottom: 8px;
+    line-height: 1.6;
+}
+
+.contact-info {
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.contact-info a {
+    color: #00528e;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+/* 桌面端样式 - 只在较大屏幕上生效 */
+@media screen and (min-width: 769px) {
+
+    /* 当.file-grid包含首页内容时的特殊样式 */
+    .file-grid .home-content {
+        grid-column: 1 / -1;  /* 跨越所有网格列 */
+        width: 100%;
+        max-width: none;      /* 移除最大宽度限制 */
+    }
+
+    .home-content {
+        
+        max-width: 1200px;  /* 或者你想要的宽度 */
+        margin: 0 auto;
+        padding: 40px;
+        font-size: 18px;
+        line-height: 1.7;
+    }
+    
+    .home-content h2 {
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+    
+    .home-content h3 {
+        font-size: 24px;
+        margin: 30px 0 20px;
+    }
+}
+
+/* 移动端适配 */
+@media screen and (max-width: 768px) {
+
+    /* 当.file-grid包含首页内容时的特殊样式 */
+    .file-grid .home-content {
+        grid-column: 1 / -1;  /* 跨越所有网格列 */
+        width: 100%;
+        max-width: none;      /* 移除最大宽度限制 */
+    }
+
+    .home-content {
+        max-width: 100%;
+        padding: 20px 15px;
+    }
+    
+    .welcome-header h2 {
+        font-size: 20px;
+    }
+    
+    .subtitle {
+        font-size: 16px;
+    }
+}

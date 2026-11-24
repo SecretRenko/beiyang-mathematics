@@ -1,0 +1,36 @@
+.social-links {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* 图标间距 */
+}
+
+.social-links a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;  /* 统一宽度 */
+    height: 40px; /* 统一高度 */
+    /*border-radius: 50%;
+    background-color: #333;  添加灰色圆圈背景*/
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+/* Font Awesome 图标大小 */
+.social-links a i {
+    font-size: 20px;
+}
+
+/* B站 SVG 图标大小和对齐 */
+.social-links a.bilibili-btn svg {
+    width: 22px;   /* 调整到与FA图标视觉上一致 */
+    height: 22px;
+    vertical-align: middle;
+}
+
+/* 悬停效果 */
+.social-links a:hover {
+    background-color: #555;
+    transform: scale(1.1);
+}

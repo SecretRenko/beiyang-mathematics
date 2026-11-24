@@ -1,0 +1,769 @@
+{
+  "files": [
+    {
+      "path": "Handout/PDE/数学物理方程（第3版） (谷超豪 李大潜 陈恕行) (Z-Library).pdf",
+      "bytes": 9723930,
+      "sha256": "5ac9988635d0243593e2d5b5b03c6fe9ce034b0ab407b2b2732c652864b06200"
+    },
+    {
+      "path": "PDFFiles/PDE/25_26偏微分方程期末考试.pdf",
+      "bytes": 97590,
+      "sha256": "d9315ccbb2822409de98a2a69edb106d95626020d122b466a148e95a8811f20b"
+    },
+    {
+      "path": "PDFFiles/PDE/24_25偏微分方程期末考试.pdf",
+      "bytes": 75957,
+      "sha256": "07b23c0c6cb016eaa5e19333d2c3a3b88008bd365b465e87463044b2710029ee"
+    },
+    {
+      "path": "Handout/代数拓扑/几何与拓扑I_2025-S.pdf",
+      "bytes": 5914893,
+      "sha256": "6f760e01e8a2053736984f9233d76a8ad85074aa261350cc69fb1ebd1f79b1d1"
+    },
+    {
+      "path": "PDFFiles/代数拓扑/25_26几何与拓扑I期末考试.pdf",
+      "bytes": 98850,
+      "sha256": "3647813c59e9c4a7f78b524ec85cd2c14234866befdf5080d80778c03e6d8b35"
+    },
+    {
+      "path": "PDFFiles/代数拓扑/24_25几何与拓扑I期末考试.pdf",
+      "bytes": 110040,
+      "sha256": "52784443b1fbdd5449449f3b08cc81d866ad55f3edde3dcae99dd9b51cddb690"
+    },
+    {
+      "path": "PDFFiles/复变函数/25-26复分析期末考试.pdf",
+      "bytes": 41661,
+      "sha256": "e2741b337c02192f39719c5d50deb3039491950f6f77e2e6baca0153737390d4"
+    },
+    {
+      "path": "Handout/复变函数/求是.zip",
+      "bytes": 6603082,
+      "sha256": "875821657a1c6404be81078de06ccc15b02ac115a328ec691e917a454bc7c435"
+    },
+    {
+      "path": "Handout/复变函数/大类.zip",
+      "bytes": 22253947,
+      "sha256": "3dbc3725ac578bc469b5564269e7f62fb0176bc9d822ef0f79f76983cebe8251"
+    },
+    {
+      "path": "PDFFiles/复变函数/23复变（曾）.pdf",
+      "bytes": 64719,
+      "sha256": "ced48ea1b20739ee2c93399fd05f2fe3cab2f99d14db74316db97687f206ef62"
+    },
+    {
+      "path": "PDFFiles/复变函数/23复变（何).pdf",
+      "bytes": 58593,
+      "sha256": "afafc3d168fdc5a1ed6957257114f553094cc8c752ef362774f91331e818aa12"
+    },
+    {
+      "path": "PDFFiles/复变函数/22级复变函数期末考试(何).pdf",
+      "bytes": 61032,
+      "sha256": "bb76b30d889767e683eff1a8018239a5146f12f7c62d5b2fef622b9980c7af7e"
+    },
+    {
+      "path": "PDFFiles/复变函数/22复变(曾）.pdf",
+      "bytes": 213520,
+      "sha256": "81b452024bbf762d4667cf02d446b4ac3a5ee7ac5acd0e73d7962d2afc1fefdd"
+    },
+    {
+      "path": "PDFFiles/复变函数/21级复变函数（曾）（来自指北）.pdf",
+      "bytes": 43744,
+      "sha256": "3f65375f939e723ec2814f0e40fbcf7eb5913e4405572dcb41a1e5ab1f93a418"
+    },
+    {
+      "path": "PDFFiles/复变函数/21级复变函数期末考试(何).pdf",
+      "bytes": 268430,
+      "sha256": "806e7ce6cdd1804f017b488cfeb328ca4579f3bbf331b2bb8a668d8ffccf7d7c"
+    },
+    {
+      "path": "PDFFiles/复变函数/21级之前的一次复变(何).pdf",
+      "bytes": 64885,
+      "sha256": "da419426d468a223e291dc96ff6fa1e2064832b0510e4487e6396e37f6bc81fc"
+    },
+    {
+      "path": "PDFFiles/大学物理A/大物1A2A计算题复习.pdf",
+      "bytes": 507577,
+      "sha256": "5305b77a06326a578e606e3b5a85e159c401775f7bb1f0c7669bd97970c8fee1"
+    },
+    {
+      "path": "PDFFiles/大学物理A/2_2023～2024A卷.pdf",
+      "bytes": 2071044,
+      "sha256": "30e30634b326a18169e24341580f5c8199d8365c7391cea8dc98773c4cb39528"
+    },
+    {
+      "path": "PDFFiles/大学物理A/22级大物A期末考试.pdf",
+      "bytes": 2966453,
+      "sha256": "14b4c84b3a3e2bf7b593d2024f0027cb37061e26028ecdb30a8d574a967fcf6c"
+    },
+    {
+      "path": "PDFFiles/大学物理A/21级大物A期末考试.pdf",
+      "bytes": 1042169,
+      "sha256": "4265ada3ba5df0b98e857edbc408578dae8ce90b8e0b3e84be4aa1bcc29c444b"
+    },
+    {
+      "path": "PDFFiles/大学物理A/20级大物A期末考试.pdf",
+      "bytes": 2052929,
+      "sha256": "4168b353cea37986f3e35498252e0e9bc70adcf396be559377366677837c3662"
+    },
+    {
+      "path": "PDFFiles/大学物理A/19级大物A期末考试.pdf",
+      "bytes": 1647702,
+      "sha256": "4e003d1768bca126b5d796fd5f9109767fb3a13986e60d39ac4e9bb6a73e5920"
+    },
+    {
+      "path": "PDFFiles/大学物理A/18级大物A期末考试.pdf",
+      "bytes": 1536269,
+      "sha256": "d26240ff85e696700cb80ecfe10528294d4777a600981943eb77ecc1af162b51"
+    },
+    {
+      "path": "PDFFiles/大学物理A/16和17级大物A期末考试.pdf",
+      "bytes": 6388703,
+      "sha256": "3f70aa8207e527e33b74e90e8ad4f58fff9a50143d6891262381fff46122275d"
+    },
+    {
+      "path": "PDFFiles/大学物理A/15级大物1A期末考试.docx",
+      "bytes": 806908,
+      "sha256": "4d2f5de6a9294b1d38817b60df62170a9f928f6ce3c8268b8ccf3fed2a3eb669"
+    },
+    {
+      "path": "PDFFiles/大学物理A/14级大物2A期末考试.pdf",
+      "bytes": 4063148,
+      "sha256": "4d5c1acaa1d6fd2499076714ebd20ac648e4097225ec2c74896456e3197e56f1"
+    },
+    {
+      "path": "PDFFiles/大学物理A/14级大物1A期末考试.docx",
+      "bytes": 698982,
+      "sha256": "072872a8fd1685c7cd5fc71dc2b5c1a47ddd1ea740ad61ac55856ce738709900"
+    },
+    {
+      "path": "PDFFiles/大学物理B/2223大物1B.pdf",
+      "bytes": 2148283,
+      "sha256": "50031688eeb98a9a11c51410ad627fc0e2d6af9f28d8c84137a133adeac6c59b"
+    },
+    {
+      "path": "PDFFiles/大学物理B/2122大物2B.pdf",
+      "bytes": 211079,
+      "sha256": "2f82234ad4cb8ae2997e56780b53b8bdba104c4244d1e89abbed4bb923c0b10c"
+    },
+    {
+      "path": "PDFFiles/大学物理B/2122大物1B.pdf",
+      "bytes": 224799,
+      "sha256": "07c2231a90bc06b02afb0eeb5aa31661703a19278409c1f256fdf7804a5b3374"
+    },
+    {
+      "path": "PDFFiles/大学物理B/1718大物2B.pdf",
+      "bytes": 1759318,
+      "sha256": "e3ac91a6aecbc310d00f979a19af6519fd4e3d20b1dc7e92b623a0bce7de7b99"
+    },
+    {
+      "path": "PDFFiles/大学物理B/1516大物2B.pdf",
+      "bytes": 2453510,
+      "sha256": "a3b0556661730bd7e22899af6949eba8845da05118c27fdfab2e5cbef8702595"
+    },
+    {
+      "path": "PDFFiles/大学物理B/1415大物2B.pdf",
+      "bytes": 3269342,
+      "sha256": "df4efef3e296a6b4f041e800a5169ec602b984cdd0b393fd80f7bf8749f4e95d"
+    },
+    {
+      "path": "PDFFiles/大学物理B/1314大物2B.docx",
+      "bytes": 4444467,
+      "sha256": "6d7721b3fc2119345b99184f4cb22066e24e105c785a4ca35ea18ab47e1368fd"
+    },
+    {
+      "path": "PDFFiles/大学物理B/0809，0910，1011，1213，1516，1617大物1B.pdf",
+      "bytes": 7553437,
+      "sha256": "1df995f8d648cd3e7e67131997ab6af850be9199b688398a41c252090d826c28"
+    },
+    {
+      "path": "Handout/实变函数/求是.zip",
+      "bytes": 38097460,
+      "sha256": "fbbabf088e5707e58ebbb9bc1e09b43b2d6ed2548dff231e807c993743d37652"
+    },
+    {
+      "path": "Handout/实变函数/大类.zip",
+      "bytes": 72820271,
+      "sha256": "dc00a55598fce87447a53004884feaf7df82594d9e6bead4cac8376b29dd1578"
+    },
+    {
+      "path": "PDFFiles/实变函数/23级实变(于).pdf",
+      "bytes": 37072,
+      "sha256": "0a443f9c79d0aaf7da0bcf4b40c7a993dc045a8902ff12e6643eb7ba1a77e335"
+    },
+    {
+      "path": "PDFFiles/实变函数/2024实变函数期末考试.pdf",
+      "bytes": 371184,
+      "sha256": "79e435291d8ebc3ff4439732a0c59e376c399f0bb7a9d043350d0fa8a8fdbe6c"
+    },
+    {
+      "path": "PDFFiles/实变函数/2023实变函数期末考试.pdf",
+      "bytes": 345747,
+      "sha256": "2bf0beb407e14a3c3079b00660ef8e9a5ad01d23f8d3d7596106f971bacaa165"
+    },
+    {
+      "path": "PDFFiles/实变函数/2022实变函数期末考试(2).pdf",
+      "bytes": 909557,
+      "sha256": "cfeef9b900195a1e13430295aa766a1e45eeb9e3cedc80b398790474f1a15558"
+    },
+    {
+      "path": "PDFFiles/实变函数/2022实变函数期末考试(1).pdf",
+      "bytes": 366304,
+      "sha256": "6fe8b09b978271100f8e79167b06c4a3d8e0e99a7e86b6f036c540b1aa9f42c1"
+    },
+    {
+      "path": "PDFFiles/实变函数/2021实变函数期末考试.pdf",
+      "bytes": 1031176,
+      "sha256": "79732f6f293ce1b72863d2aa80d30a1ac7cdc561b477281288a6b936b38ffdbe"
+    },
+    {
+      "path": "PDFFiles/实变函数/2020实变函数期末考试答案.pdf",
+      "bytes": 397571,
+      "sha256": "14db6c715381cdb0f381b23eaed0514fe4a2c89cc3b3762b673ef976b3d6e167"
+    },
+    {
+      "path": "Handout/微分几何/求是.zip",
+      "bytes": 4455856,
+      "sha256": "e3dba5f5918c6e765d7ac1ac07f164e91eb505cd395f978d91934c3efc60dfa8"
+    },
+    {
+      "path": "Handout/微分几何/大类.zip",
+      "bytes": 21325521,
+      "sha256": "b710d1dd2307f8d22bd6d6fb4d8d13371d9b408759b5912069389e27d5affe30"
+    },
+    {
+      "path": "PDFFiles/微分几何/微分几何 (1).pdf",
+      "bytes": 96804,
+      "sha256": "69b189eb14b531773fe3e3b99c0bb8efb620446c484fe7fa442515738be024b8"
+    },
+    {
+      "path": "PDFFiles/微分几何/23级微分几何期末.pdf",
+      "bytes": 84986,
+      "sha256": "bdbfcf14643af5fa35bb482e130692552ef70f164a0324ed57ef28265d53a998"
+    },
+    {
+      "path": "Handout/抽象代数/抽象代数 (孙笑涛) (Z-Library).pdf",
+      "bytes": 18235876,
+      "sha256": "7ef96f144a48ca69099752cdf9cf55c81afdb2a5d82bb306b9ca61f3304010fc"
+    },
+    {
+      "path": "PDFFiles/抽象代数/24级抽象代数期末考试.pdf",
+      "bytes": 44483,
+      "sha256": "1f3b6f964d4e9e00885339b462dfbf8987ba6baf5f43273b23f440fe999d61aa"
+    },
+    {
+      "path": "PDFFiles/抽象代数/24级抽象代数期中考试.pdf",
+      "bytes": 63167,
+      "sha256": "fe9cfe4491e189cafd16b911c4b60fc4fed158d3e785367acfc3744b7e4fb619"
+    },
+    {
+      "path": "PDFFiles/抽象代数/23级抽象代数期末考试.pdf",
+      "bytes": 55109,
+      "sha256": "114ddedd88562954e281ff5b8a12302a21e72d6f0507fa171187bff1c0948d48"
+    },
+    {
+      "path": "PDFFiles/抽象代数/23级抽象代数期中考试.pdf",
+      "bytes": 66820,
+      "sha256": "6da16e198783a347eec7e62144728b5639d9df214e239fefbeee6a46e425d98b"
+    },
+    {
+      "path": "PDFFiles/抽象代数/22级抽象代数期末考试.pdf",
+      "bytes": 60993,
+      "sha256": "99aca4150119cc7db873140c39677f26a339731ec39d5561287129e01d53dd9a"
+    },
+    {
+      "path": "PDFFiles/抽象代数/22级抽象代数期中考试.pdf",
+      "bytes": 50229,
+      "sha256": "7a4e60928253cca78d7c8ecd5e030ad59a0e0c70a9c78d8be7be4afb15a22ee3"
+    },
+    {
+      "path": "PDFFiles/抽象代数/21级抽象代数期末考试.pdf",
+      "bytes": 47988,
+      "sha256": "54f39e6bba12eabfb5c94d4d3d300c2f9f79cdf836d532f15805d41ed279a775"
+    },
+    {
+      "path": "PDFFiles/抽象代数/21级抽象代数期中考试.pdf",
+      "bytes": 45921,
+      "sha256": "1b2ae36bd7ed55101e85e5a38685c615468de54a0bc8d27223a34ffa28ae4e37"
+    },
+    {
+      "path": "PDFFiles/抽象代数/20级抽象代数期末考试.pdf",
+      "bytes": 57973,
+      "sha256": "6917166a2ad98646c25b0a0b6f6015dd566ffaeffae4d5f535206312d131bf98"
+    },
+    {
+      "path": "Handout/拓扑学/求是.zip",
+      "bytes": 55558335,
+      "sha256": "7a6ee7fad8cd94293b4c45d57050c3e72141eeeda1c236e32411a21556af0424"
+    },
+    {
+      "path": "Handout/拓扑学/大类.zip",
+      "bytes": 257545571,
+      "sha256": "62716d0bf3e29406cedfbc2cf35a25ee37f2080257ca7f5db4d25925ff28bd43"
+    },
+    {
+      "path": "PDFFiles/拓扑学/23级拓扑期末(王).pdf",
+      "bytes": 68736,
+      "sha256": "5d286db9b3b4b47b374acbb3f01c92ea71f0831863db4f8af4f98f8a365c2e42"
+    },
+    {
+      "path": "PDFFiles/拓扑学/23级拓扑期末(潘).pdf",
+      "bytes": 101691,
+      "sha256": "dfa28546380e474d6e43e76a8d1e44031dd73327b332503b926e18b44093d47d"
+    },
+    {
+      "path": "PDFFiles/拓扑学/23级拓扑半期.pdf",
+      "bytes": 1657818,
+      "sha256": "ae263dbe26eb955601245273b1e87f6ba58c16ac56ac7092cf0c6dafa2b54275"
+    },
+    {
+      "path": "PDFFiles/拓扑学/22拓扑.pdf",
+      "bytes": 104308,
+      "sha256": "99cc54ad8122c36486084bce72af55f559d32a71da75ac407fdf9a823d4fb7b3"
+    },
+    {
+      "path": "Handout/数值线性代数/数值线性代数(第二版) -- 徐树方, 高立, 张平文_副本.pdf",
+      "bytes": 39548703,
+      "sha256": "4c88e18759272b0eebb7fe293104aa904e375bd1f1e9da8eb01c847d38d1bb18"
+    },
+    {
+      "path": "PDFFiles/数值线性代数/2024数值线性代数试卷.pdf",
+      "bytes": 103580,
+      "sha256": "02373048302dc9b3bb4f077222dada8781518feaa9d5ddb0d29fe51eafbe98dc"
+    },
+    {
+      "path": "Handout/数学分析A/求是.zip",
+      "bytes": 65162554,
+      "sha256": "10bc3c08d61c05aba34ea2867e9a43b45d487de67378e302596a1e64886a9ab5"
+    },
+    {
+      "path": "Handout/数学分析A/大类.zip",
+      "bytes": 4222846,
+      "sha256": "a9d1223292c2f852a69624080dc66b19007bc572c9cf44cbb6636a36dfea6406"
+    },
+    {
+      "path": "PDFFiles/数学分析A/25级数学分析(A)期末考试(求是) .pdf",
+      "bytes": 51932,
+      "sha256": "cf256f57f3edcfbe8808ebe9145447ba2730f248a00533158596f806aba634af"
+    },
+    {
+      "path": "PDFFiles/数学分析A/25级数学分析(A)期末考试(大类).pdf",
+      "bytes": 47736,
+      "sha256": "032b43a927ebeb9c666af2e973c8600be6133cdde33e8d017672c72bfb7deb24"
+    },
+    {
+      "path": "PDFFiles/数学分析A/25级数学分析(A)期中考试(求是) .pdf",
+      "bytes": 55201,
+      "sha256": "9b3291db6f6b3408d8af61324c89e6867029e1c564864ce84134f1e27ce22fab"
+    },
+    {
+      "path": "PDFFiles/数学分析A/25级数学分析(A)期中考试(大类).pdf",
+      "bytes": 55491,
+      "sha256": "b676e8196cdab16cf023dd4f77af7092b2c9c47e742514e8cf285fdd72b35ec2"
+    },
+    {
+      "path": "PDFFiles/数学分析A/24级数学分析(A)期末考试(张).pdf",
+      "bytes": 51109,
+      "sha256": "2cbdb17cc5dd24dfd938208f58e6c644ee42b974ce3e4fcb5ed1d24e3f076fd9"
+    },
+    {
+      "path": "PDFFiles/数学分析A/24级数学分析(A)期末考试(周).pdf",
+      "bytes": 55236,
+      "sha256": "ca7622e14c6ad98ad2738e334a85d266e98ce378d438bfb9e06d85dee0f23b2f"
+    },
+    {
+      "path": "PDFFiles/数学分析A/24级数学分析(A)期中考试(张).pdf",
+      "bytes": 53532,
+      "sha256": "c64d958129d9b303dc5e96b75163e648f7d34eaae121926d1ca0eff9a09a6edd"
+    },
+    {
+      "path": "PDFFiles/数学分析A/24级数学分析(A)期中考试(周).pdf",
+      "bytes": 48392,
+      "sha256": "2e99cb88c1bee2d4cb261598d3a09521eeec64277dda8b4f59861fb4e7b06f78"
+    },
+    {
+      "path": "PDFFiles/数学分析A/23级数学分析(A)期末考试(李).pdf",
+      "bytes": 46133,
+      "sha256": "9980fe372015a54abecd2e5cbd26a9e1b5e354221bd9f2897122df76ff5dac4b"
+    },
+    {
+      "path": "PDFFiles/数学分析A/23级数学分析(A)期中考试B卷(李).pdf",
+      "bytes": 43657,
+      "sha256": "2e5ad06722cd2227b99a9adefbfcdb2eac26180944a7f1096300512ceddcc896"
+    },
+    {
+      "path": "PDFFiles/数学分析A/23级数学分析(A)期中考试(李).pdf",
+      "bytes": 48753,
+      "sha256": "7595429a2456ee3d794b2654702bace80ce14450348fb6d6dd536247c2b552c6"
+    },
+    {
+      "path": "PDFFiles/数学分析A/23级数学分析(A)专题开卷考试.pdf",
+      "bytes": 61766,
+      "sha256": "3ae69b2bdc32738878f2a886c43644b1e1ce2dd71e2fc2438fbf130fdc9af0de"
+    },
+    {
+      "path": "PDFFiles/数学分析A/22级数学分析(A)期末考试(周).pdf",
+      "bytes": 56211,
+      "sha256": "37b3b5fd80ef2c11a7ed81ba95f463019643f07cbe2fc5aa306994fae6f9058d"
+    },
+    {
+      "path": "PDFFiles/数学分析A/22级数学分析(A)期中考试(周).pdf",
+      "bytes": 55843,
+      "sha256": "4072490028a71e4fe7fb45929a852fccc9a1bdaa20baaa8fead6afa9faaa36d3"
+    },
+    {
+      "path": "PDFFiles/数学分析A/22级数学分析(A)专题开卷考试.pdf",
+      "bytes": 66008,
+      "sha256": "15e5717034b0a7e4cc2216fa2433135873fdc25b21d641788b90a01db928014e"
+    },
+    {
+      "path": "PDFFiles/数学分析A/20级数学分析(A)期末考试(李).pdf",
+      "bytes": 49026,
+      "sha256": "00ff7abaa0e9f189560490100024a1ac36be58ce1c2456cf035721fc9c0eda74"
+    },
+    {
+      "path": "PDFFiles/数学分析A/20数学分析(A)半期（求是）}.pdf",
+      "bytes": 46231,
+      "sha256": "0474d202795b60b9b3c53b7739fe87209690bcd16c3b087332bd2a4d513a6c6e"
+    },
+    {
+      "path": "PDFFiles/数学分析B/24级数学分析(B)期末考试(李).pdf",
+      "bytes": 44903,
+      "sha256": "7cfca769b2a263f1b9e1c7619557a12e40f02862495317eb278d847cefba1fc6"
+    },
+    {
+      "path": "PDFFiles/数学分析B/24级数学分析(B)期末考试(周).pdf",
+      "bytes": 56961,
+      "sha256": "033f768ceef4024b93fb48cb2a491a438eaad074cc3388525b16339fe5bf9226"
+    },
+    {
+      "path": "PDFFiles/数学分析B/24级数学分析(B)期中考试(李).pdf",
+      "bytes": 40761,
+      "sha256": "5bbc642013f64c3173412ef70a1fa6056079b0e6cae22be88ea542ba1a8ed74b"
+    },
+    {
+      "path": "PDFFiles/数学分析B/24级数学分析(B)期中考试(周).pdf",
+      "bytes": 52853,
+      "sha256": "7939d2c0c7b48bbc20c0d40509c2117f9bd2c38bfc0b5e72e387e8913632ed35"
+    },
+    {
+      "path": "PDFFiles/数学分析B/23级数学分析(B)期末考试（何）.pdf",
+      "bytes": 50891,
+      "sha256": "38520c118131bae22e073f698a48aa50564be85f70cdb7053577d7d140daaebb"
+    },
+    {
+      "path": "PDFFiles/数学分析B/23级数学分析(B)期中考试(何)（里面打错了这个是半期的）.pdf",
+      "bytes": 54466,
+      "sha256": "1e97542bb9ee42ba1caf78c9486772f9779b3c41a5056442c1aad5b4e386d1cd"
+    },
+    {
+      "path": "PDFFiles/数学分析B/22级数学分析(B)期末考试(周).pdf",
+      "bytes": 52623,
+      "sha256": "28835d566a774f1911281d60eace496ef0df214b866a7acdb5843a80cee3da6b"
+    },
+    {
+      "path": "PDFFiles/数学分析B/21级数分b（22年考的不知道那个班）.pdf",
+      "bytes": 330745,
+      "sha256": "acbf74b80775b320494717b291a8a078eeb75b47f488a9d9ee14c5ed49956ab2"
+    },
+    {
+      "path": "PDFFiles/数学分析B/21级和22级数学分析(B)期末考试(求是).pdf",
+      "bytes": 286775,
+      "sha256": "c7dc2bbb4d6f911e49c52306385469a29e7815247502ad6779983e3e4d42eadc"
+    },
+    {
+      "path": "PDFFiles/数学分析C/24级数学分析(C)期末考试(求是).pdf",
+      "bytes": 32098,
+      "sha256": "3024b020433ddf9caf9483c7a2fad781545aa8072d71eec37e3c5113b6f6e14f"
+    },
+    {
+      "path": "PDFFiles/数学分析C/24级数学分析(C)期中考试(求是).pdf",
+      "bytes": 71845,
+      "sha256": "48a60258901c60e930130cecf05cf1e011b087815383acc89f2b8be6621a2d4f"
+    },
+    {
+      "path": "PDFFiles/数学分析C/24级数学分析(C)期中考试(大类).pdf",
+      "bytes": 77405,
+      "sha256": "6ee4e75df319edbc707526f689cf354d0eb82b1a283b91c10c92c685e2c41625"
+    },
+    {
+      "path": "PDFFiles/数学分析C/23级数学分析(C)期末考试(求是).pdf",
+      "bytes": 76569,
+      "sha256": "6489410bbb4c0d32c2ea650d514aa9c99aeab55bb105ce9adcb998e3f32ae231"
+    },
+    {
+      "path": "PDFFiles/数学分析C/23级数学分析(C)期末考试(曾).pdf",
+      "bytes": 76245,
+      "sha256": "827b2a0789e9cbd0ae950ad87a37a136a9d02724177beb71cae81eee7c7ce42a"
+    },
+    {
+      "path": "PDFFiles/数学分析C/22级数学分析(C)期末考试(吴).pdf",
+      "bytes": 54799,
+      "sha256": "e66958a13bbc88955b916dc31a00beb29b4b61b205029d40881ac26098d63132"
+    },
+    {
+      "path": "PDFFiles/数学分析C/22级数学分析(C)期中考试(曾).pdf",
+      "bytes": 57442,
+      "sha256": "a2da147462ee14c11a755687d93d82d7df5e45c814aa923ed883f40ac04d476c"
+    },
+    {
+      "path": "PDFFiles/数学分析C/22级数学分析(C)期中考试(吴).pdf",
+      "bytes": 50725,
+      "sha256": "ddaa30f24664a741e4bf77e9bcdf7868f70d5d38835156dc869b878ef5999bc6"
+    },
+    {
+      "path": "PDFFiles/数学分析C/21级数学分析(C)期中考试(吴).pdf",
+      "bytes": 53529,
+      "sha256": "23d4330cb693e6849dcd0d71d1ea26ffa47c618d653501401e514cb0335043ca"
+    },
+    {
+      "path": "Handout/数理统计/应用数理统计 关静.pdf",
+      "bytes": 68124674,
+      "sha256": "e01db601c076987d09fb660ec3cfc0976dae8b50fed00d604e0b1a29daee2e84"
+    },
+    {
+      "path": "PDFFiles/数理统计/24-25数理统计B卷.docx",
+      "bytes": 175432,
+      "sha256": "b92b026435f4ba772e0956b7d09705803625367d34e478eacce1554498e924a9"
+    },
+    {
+      "path": "PDFFiles/数理统计/22-23数理统计A卷.docx",
+      "bytes": 144168,
+      "sha256": "2194d2dcf4753acdd26082abd654ed888cdd27223e4b9d8c2b91d1a351afcdac"
+    },
+    {
+      "path": "Handout/数论选讲/数论选讲20250509.pdf",
+      "bytes": 596381,
+      "sha256": "be3dee0b83a0a5919600313e2e0a3b33c31312c3529de756962669fa23e6b479"
+    },
+    {
+      "path": "PDFFiles/数论选讲/数论期中 (来自指北).pdf",
+      "bytes": 1237559,
+      "sha256": "d6d59d9af9175b373a574fdfe0ef08e9a93e9b8220a03044fe99c1603bfaaa2c"
+    },
+    {
+      "path": "PDFFiles/数论选讲/数论2023级期末.pdf",
+      "bytes": 55052,
+      "sha256": "a24d8f3048e2766baf72b84a9a9e7a76cbbd6b393b101343efd66ad5c1ba4bff"
+    },
+    {
+      "path": "PDFFiles/数论选讲/数论2023级期中.pdf",
+      "bytes": 36000,
+      "sha256": "2ff60a699416481b8fd0873cf3a72cc8b2871771b0dd31c2916d92333438a767"
+    },
+    {
+      "path": "PDFFiles/数论选讲/22级数论选讲期末考试.pdf",
+      "bytes": 58364,
+      "sha256": "2e8437b5d4aa2439549e4d0d66ddfb7f97f8f72e0192b30f307a6d7ebd78987c"
+    },
+    {
+      "path": "Handout/概率论/概率论基础 第三版 (李贤平) (Z-Library).pdf",
+      "bytes": 18979217,
+      "sha256": "279c376dc9a0963a8c54ac50e3d32b5bc2d56051245fc1640e2f1598b1cc9758"
+    },
+    {
+      "path": "Handout/概率论/概率论作业.zip",
+      "bytes": 1598832,
+      "sha256": "906639f21552e27a9f1b47a2d9cecb1ef024b340bc8be350c00d91c216414a54"
+    },
+    {
+      "path": "Handout/概率论/概率论notes（杨雪）.pdf",
+      "bytes": 1219945,
+      "sha256": "4c1a9a4463aefe08e8732453e909bfcae4e731383d7789a9ed2b79bcb658eb53"
+    },
+    {
+      "path": "PDFFiles/概率论/某一级概率论期中考试（注：指北上有手写版本）.pdf",
+      "bytes": 37129,
+      "sha256": "c46445c5d194fa80f565b44f8927cfd759f4596f82fca7696ae5119aa9e79e04"
+    },
+    {
+      "path": "PDFFiles/概率论/另一级概率论期中考试（注：指北上有手写版本）.pdf",
+      "bytes": 38356,
+      "sha256": "fc19ac014a49bbead0ce50cebd25dce9798d8d6a03c60fe390d24672406fe037"
+    },
+    {
+      "path": "PDFFiles/概率论/24级概率论期末考试 .pdf",
+      "bytes": 61824,
+      "sha256": "e1acc97e52d7509741e3c45ced0b430f945eede3a5bcebe5c00d0ebd0716d64f"
+    },
+    {
+      "path": "PDFFiles/概率论/23级概率论期末考试 .pdf",
+      "bytes": 58348,
+      "sha256": "4feeb3d16d209549d6698c54044de6fc45e5689eff2cd8721f706c778d900df2"
+    },
+    {
+      "path": "PDFFiles/概率论/22级概率论期末考试.pdf",
+      "bytes": 75333,
+      "sha256": "f047d30eeb920f0cdf51dd0e332dceea6f00b34419584d6bdad52201c277465c"
+    },
+    {
+      "path": "PDFFiles/概率论/21级概率论.pdf",
+      "bytes": 87195,
+      "sha256": "09de30d4b4d11625ac18c4f3caf25efa5b6889020a87699fdd7cb7440825c9f0"
+    },
+    {
+      "path": "PDFFiles/概率论/19级概率论期末考试.pdf",
+      "bytes": 81204,
+      "sha256": "8dfb5af14fe29867aa07d1fac9b898ec39c3cc9a72d40812c65744cc7b2efadf"
+    },
+    {
+      "path": "Handout/泛函分析/泛函分析基础知识小练习.zip",
+      "bytes": 746587,
+      "sha256": "78a7dd94ba9b0a64d2739b280a2949af0247f6979b6ed56280d2ce40a2b4f8cb"
+    },
+    {
+      "path": "PDFFiles/泛函分析/25_26泛函分析期末考试_A_卷.pdf",
+      "bytes": 114886,
+      "sha256": "f45294a890ab2201f89634baab5e224ba0e3d4b0acfa92acb638ce82d151fbec"
+    },
+    {
+      "path": "PDFFiles/泛函分析/24_25泛函分析期末考试_A_卷.pdf",
+      "bytes": 143258,
+      "sha256": "261d4c27a27b26d65c72242cb8d01aca9bd8d6fc4d8cf7dab11f845c8c46c743"
+    },
+    {
+      "path": "Handout/测度论/概率论基础(Z-Library).pdf",
+      "bytes": 2111640,
+      "sha256": "1b4b7d892fb9a71892e65dbab1789d0b98c39d4f99fbac1c785bb84ed7dea843"
+    },
+    {
+      "path": "PDFFiles/测度论/2024年测度论期末试题.pdf",
+      "bytes": 369170,
+      "sha256": "e4a2dde57f3a80fe8552a59db1325c5e07900af9cb3b66ed9e9b68a1c1b0d971"
+    },
+    {
+      "path": "PDFFiles/算法设计与分析/25-26蒜发(1).docx",
+      "bytes": 908384,
+      "sha256": "ab3d10985ce74f0ee5186980856cb7106674377ff577dd70c9a171055841a25f"
+    },
+    {
+      "path": "Handout/组合数学/组合数学讲义.pdf",
+      "bytes": 1691977,
+      "sha256": "6e47a53b085479d20f7fa2e17de10aac641345d0ee2caeeee4d851de90cb8669"
+    },
+    {
+      "path": "PDFFiles/组合数学/24_25组合数学期末考试_A_卷.pdf",
+      "bytes": 92437,
+      "sha256": "88ef0432a8a4e595665367ac09f549a888e6b67610042fd1525a15f0af4f2735"
+    },
+    {
+      "path": "Handout/高等代数A/高等代数（孙院）.pdf",
+      "bytes": 2228573,
+      "sha256": "802b78e19c1f8d5ca148d4853fce67d3b2b1f182c683a38f434b91845330c7cf"
+    },
+    {
+      "path": "PDFFiles/高等代数A/25级高等代数(A)期中考试.pdf",
+      "bytes": 69539,
+      "sha256": "73db7f73c26de857b1fffb783fa4d03cb3769618f2cfe6b3652049203b07b497"
+    },
+    {
+      "path": "PDFFiles/高等代数A/24级高等代数A期中考试.pdf",
+      "bytes": 64860,
+      "sha256": "7196aaece894e90e0913c1d4504c740dfc46b7db1b2304c5b0134cdae956a557"
+    },
+    {
+      "path": "PDFFiles/高等代数A/24级高等代数(A)期末考试.pdf",
+      "bytes": 54801,
+      "sha256": "ef0c5075edcf34e24d1598d7e5b5bc69fe1a07f42a28719dcaee053036e8dc2f"
+    },
+    {
+      "path": "PDFFiles/高等代数A/23级高等代数(A)期末考试.pdf",
+      "bytes": 61904,
+      "sha256": "4a0474ff94ededa2da1028c2fc4d9f9678c880e7fa624d6931c5899acf3edb90"
+    },
+    {
+      "path": "PDFFiles/高等代数A/23级高等代数(A)期中考试.pdf",
+      "bytes": 52948,
+      "sha256": "0b903f5f66462c21556abb2ba9b06a6840d03a10f7d62ee292708dec9e2d0800"
+    },
+    {
+      "path": "PDFFiles/高等代数A/22级高等代数(A)期末考试.pdf",
+      "bytes": 63183,
+      "sha256": "302cafbbfc205aef1ab9640b9621cd5050cdfb88501dd241606ac8a3b7b8cc80"
+    },
+    {
+      "path": "PDFFiles/高等代数A/22级高等代数(A)期中考试.pdf",
+      "bytes": 57602,
+      "sha256": "4fb4116733169bfbfc2d498691b90dafb76c147abd2675f987bc7182bbf4aa6e"
+    },
+    {
+      "path": "PDFFiles/高等代数A/21级高等代数(A)期末考试.pdf",
+      "bytes": 68075,
+      "sha256": "c6effcc1acc666b990fb6ef62756782ffea2206dae59147ab3cf78c87378908e"
+    },
+    {
+      "path": "PDFFiles/高等代数A/21级高等代数(A)期中考试.pdf",
+      "bytes": 68563,
+      "sha256": "b9438c298ccb7667a019cc4c1d369ee968f50cfeedb3755f15b78ad5ad15aa40"
+    },
+    {
+      "path": "PDFFiles/高等代数B/24级高等代数(B)期末考试.pdf",
+      "bytes": 47881,
+      "sha256": "f91014e5d8ed6a74521deb2e3cf3862d6b10968ccd5f3b11869773e5da58d676"
+    },
+    {
+      "path": "PDFFiles/高等代数B/24级高等代数(B)期中考试.pdf",
+      "bytes": 68047,
+      "sha256": "c00a2ff2b57ceb62918fa8c804c6776c7570577ceaf0f8d0a60a07bc82608a49"
+    },
+    {
+      "path": "PDFFiles/高等代数B/23级高等代数(B)期末考试.pdf",
+      "bytes": 50969,
+      "sha256": "7aed4da787d9501e4f1fa962881d67c6dc02b42db21f5121c371f19875b423f7"
+    },
+    {
+      "path": "PDFFiles/高等代数B/23级高等代数(B)期中考试.pdf",
+      "bytes": 63577,
+      "sha256": "275e626d9e533444bb2be4ff2cac1a24c1741c68dc89fbe461b206e45d220195"
+    },
+    {
+      "path": "PDFFiles/高等代数B/22级高等代数(B)期中考试.pdf",
+      "bytes": 64158,
+      "sha256": "e040f0c50c410af44b64d58fc239ca55331d77935b98f969fb78f2036bc46ad9"
+    },
+    {
+      "path": "PDFFiles/高等代数B/21级高等代数(B)期末考试.pdf",
+      "bytes": 62603,
+      "sha256": "a71c3bc0086e85f143d3cf5ec8576e7056e4c1eb3a5b8692ba65e133be483c00"
+    },
+    {
+      "path": "PDFFiles/高等代数B/21级高等代数(B)期中考试.pdf",
+      "bytes": 60900,
+      "sha256": "4200f372547f215ede19c20f30cac1d088183efe35e0b5ea1f9ed4a9f3acfde8"
+    },
+    {
+      "path": "Handout/ODE/求是.zip",
+      "bytes": 8036791,
+      "sha256": "aa0d03918d24a55f290339d8800f3f708f0162fbe6ba5647cc378e88c235c0ff"
+    },
+    {
+      "path": "Handout/ODE/大类-常微分方程教程 第三版 (丁同仁，李承治) (Z-Library).pdf",
+      "bytes": 43560069,
+      "sha256": "8b10eb0f28f9690862357187dad5b9f1a8057b26d7c48fc6b0c3f9ee01b04fbe"
+    },
+    {
+      "path": "Handout/多元统计分析/应用多元统计分析2.pdf",
+      "bytes": 16219918,
+      "sha256": "ef5e678d7f3d2409104dfab88ffbec90034afa9b10f204a19d4bd0ea97ea3f20"
+    },
+    {
+      "path": "Handout/多元统计分析/应用多元统计分析1.pdf",
+      "bytes": 18441906,
+      "sha256": "54b5a21035f7eb05ed44ea4f288624fc7de5f4044849a88d4c9af1d853be9546"
+    },
+    {
+      "path": "Handout/微分流形/from calculus to cohomology(1).pdf",
+      "bytes": 6541797,
+      "sha256": "1a68d8adc1cb642d4a826f2191fb8423090dde0904255da0345edcb575fae656"
+    }
+  ],
+  "missing": [
+    "PDFFiles/高等代数A/25级高等代数(A)期末考试.pdf"
+  ],
+  "release_assets": [
+    {
+      "path": "Handout/拓扑学/大类.zip",
+      "bytes": 257545571,
+      "sha256": "62716d0bf3e29406cedfbc2cf35a25ee37f2080257ca7f5db4d25925ff28bd43"
+    }
+  ]
+}

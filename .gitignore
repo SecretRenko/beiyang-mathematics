@@ -1,0 +1,13 @@
+node_modules/
+**/.env
+**/.env.*
+!**/.env.example
+backend/data/
+*.log
+*.pem
+*.key
+*.pfx
+*.p12
+__pycache__/
+.DS_Store
+Thumbs.db
