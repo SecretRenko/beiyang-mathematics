@@ -3,6 +3,7 @@
 天津大学数学课程讲义、往年题与学习资料，以及资源下载站源码。
 
 - 网站：https://beiyangmathmatics.site/
+- GitHub：https://github.com/SecretRenko/beiyang-mathematics
 - 友情链接：[天津大学课程共享计划](https://cs.tjuse.com/zh-CN/)、[天津大学数学学院本科生指北](https://jiyouhai.github.io/tju-math-guide/professional_courses/)
 
 ## 目录
@@ -35,3 +36,7 @@
 ## 使用与来源
 
 资料保留原作者权利和原有声明。公开收录不代表获得任意转载或重新许可的权利；本仓库不对第三方资料统一追加开源许可证。仅供学习交流，请勿用于商业用途。如有错误、署名或版权问题，请通过 Issue 或网站联系方式反馈。
+
+## 上传状态
+
+网站源码和资源清单先行上传。课程资料仍保存在本地整理目录，尚未全部推送，当前仓库不是完整资料备份。以实际文件和资源清单核对完整性。
